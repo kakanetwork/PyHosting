@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Administrador</title>
+</head>
+<body>
+    <h1>OI ADMIN</h1>
+
+    <ul>
+        {% for dominio in dominios %}
+            <li>{{ dominio.nome }} <a href="{% url 'remover_dominio' dominio.id %}">[LINK PARA REMOVER]</a></li>
+        {% endfor %}
+    </ul>
+    <br>
+    <form action="{% url 'adicionar_dominio' %}" method="post">
+        {% csrf_token %}
+        <input type="text" name="novo_dominio" placeholder="Novo Domínio" required>
+        <button type="submit">Criar</button>
+    </form>
+
+    <br>
+    <a href="{% url 'trocar_senha' %}">Trocar Senha</a>
+</body>
+</html>

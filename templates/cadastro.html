@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            margin-top: 200px;
+        }
+
+        form {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        form div {
+            margin-bottom: 15px;
+        }
+
+        form input,
+        form select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .link-login {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    {% if erro_cadastro %}
+        <div class="alert alert-danger">
+            {{ erro_cadastro }}
+        </div>
+    {% endif %}
+    <form method="post">
+        {% csrf_token %}
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required />
+        </div>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" required />
+        </div>
+        <div>
+            <label for="flag">Tipo de Usuário:</label>
+            <select name="flag" id="flag" required>
+                <option value="A">Administrador</option>
+                <option value="D">Administrador de Dominio</option>
+                <option value="U">Usuario de Dominio</option>
+            </select>
+        </div>
+
+        <div>
+            <button type="submit">Cadastrar</button>
+        </div>
+    </form>
+    <br>
+    <div class="link-login">
+        <a href="{% url 'inicio' %}">Faca seu login</a>
+    </div>
+</body>
+
+</html>
