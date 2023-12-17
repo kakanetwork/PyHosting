@@ -4,13 +4,18 @@ from django.urls import path
 from apphosting import views
 
 urlpatterns = [
-    path('', views.login_view, name='inicio'),
-    path('painel/', views.admin, name='admin'),
-    path('painel/', views.admindominio, name='admindominio'),
-    path('painel/', views.userdominio, name='userdominio'),
-    path('cadastrar/', views.cadastro, name='cadastrar'),
-    path('erro/', views.erro_autorizacao, name='erro_autorizacao'),
+    path('', views.PageLogin, name='inicio'),
+    path('painel/', views.PageAdmin, name='admin'),
+    path('painel/', views.PageAdminDominio, name='admindominio'),
+    path('painel/', views.PageUser, name='userdominio'),
+    path('cadastrar/', views.PageCadastro, name='cadastrar'),
+    path('unauthorized/', views.PageUnauthorized, name='unauthorized'),
+    
+    path('logout/', views.Logout, name='logout'),
+    #path('senhas_atuais/', views.SenhasAtuais, name='senhas_atuais'),
+
+    path('trocasenha/', views.trocar_senha, name='trocasenha'),
+
     path('remover_dominio/<int:item_id>/', views.remover_dominio, name='remover_dominio'),
     path('adicionar_dominio/', views.adicionar_dominio, name='adicionar_dominio'),
-    path('trocar_senha/', views.trocar_senha, name='trocar_senha'),
 ]
