@@ -24,7 +24,6 @@ def Redirecionamento(flag):
         print('Redirecionamento para user de dominio')
         return redirect('userdominio')
 
-
 def trocar_senha(request):
     if request.method == 'POST':
         novasenha = request.POST.get('novaSenha')
@@ -137,15 +136,14 @@ def remover_dominio(request, item_id):
 def adicionar_dominio(request):
     nome_dominio = request.POST.get('nome_dominio')
     id_admin = request.session.get('user_id')
-    print(nome_dominio, id_admin)
     if Dominios_BD.objects.filter(dominio=nome_dominio).exists():
-        return redirect('admin')    
-    try:
-        
+        return redirect('admin')
+    try: 
         add_dominio = Dominios_BD()
         add_dominio.dominio = nome_dominio
         add_dominio.id_admin = id_admin
         add_dominio.save() 
+        
     except:
         return redirect('logout')
     
@@ -164,4 +162,3 @@ def PageAdminDominio(request):
 @login_user
 def PageUser(request):  
     return render(request, 'user-dominio/painel.html')
-
