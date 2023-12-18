@@ -14,6 +14,7 @@ import random
 
 def Redirecionamento(flag):
     # nessa funcao eu pego a flag do usuario e redireciono para a pagina correta 
+    
     if flag == 'A':
         print('Redirecionamento para admin')
         return redirect('admin')
@@ -26,6 +27,7 @@ def Redirecionamento(flag):
 
 def trocar_senha(request):
     if request.method == 'POST':
+        flag = request.session.get('user_flag')
         novasenha = request.POST.get('novaSenha')
         confirmasenha = request.POST.get('confirmarSenha')
         senhaatual = request.POST.get('senhaAtual')
@@ -40,12 +42,12 @@ def trocar_senha(request):
                 return redirect('logout')
             else:
                 mensagem = "Informe a mesma senha na confirmação!"
-                messages.error(request, mensagem)
-                return redirect('admin')
+                request.session['mensagem_erro'] = mensagem
+                return Redirecionamento(flag)
         else:
             mensagem = "Senha Atual esta incorreta!"
-            messages.error(request, mensagem)
-            return redirect('admin')
+            request.session['mensagem_erro'] = mensagem 
+            return Redirecionamento(flag)
     else:
         return redirect('unauthorized')
 
@@ -91,7 +93,7 @@ def PageLogin(request):
 def PageCadastro(request):
     if request.method == 'POST':
         email = request.POST.get('email')
-        flag = 'A'
+        flag = 'D'
         senha = request.POST.get('senha')
         try:
             novo_usuario = Usuario_BD()
@@ -110,14 +112,13 @@ def PageUnauthorized(request):
     return render(request, 'erro_autorizacao.html')
 
 
-
 # ======================================================================
 ''' FUNCOES DOS ADMINS '''
 # ======================================================================
 
 @login_admin
 def PageAdmin(request):
-    mensagens = messages.get_messages(request)
+    mensagens = request.session.pop('mensagem_erro', None)
     dados_dominios = Dominios_BD.objects.all()
     return render(request, 'admin/painel.html', {'dados_dominios': dados_dominios, 'mensagens': mensagens})
 
@@ -143,7 +144,7 @@ def adicionar_dominio(request):
         add_dominio.dominio = nome_dominio
         add_dominio.id_admin = id_admin
         add_dominio.save() 
-        
+
     except:
         return redirect('logout')
     
@@ -161,4 +162,5 @@ def PageAdminDominio(request):
 
 @login_user
 def PageUser(request):  
-    return render(request, 'user-dominio/painel.html')
+    mensagens = request.session.pop('mensagem_erro', None)
+    return render(request, 'user-dominio/painel.html', {'mensagens': mensagens})

@@ -15,13 +15,10 @@
 <body>
     
     {% if mensagens %}
-    <ul class="messages">
-        {% for message in mensagens %}
-            <script>
-                alert("{{ message }}");
-            </script>
-        {% endfor %}
-    </ul>
+        <script>
+            alert("{{ mensagens }}");
+        </script>
+
     {% endif %}
     
 
@@ -29,7 +26,7 @@
 
     <ul>
         {% for x in dados_dominios %}
-        <li>{{ x.dominio }}<a href="{% url 'remover_dominio' x.id %}">[Remover]</a></li>
+        <li>{{ x.dominio }}<a href="{% url 'remover_dominio' x.id %}" onclick="return confirm('Deseja remover o dominio?')" >[Remover]</a></li>
         {% endfor %}
     </ul>
 

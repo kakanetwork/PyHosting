@@ -6,8 +6,8 @@ from apphosting import views
 urlpatterns = [
     path('', views.PageLogin, name='inicio'),
     path('painel/', views.PageAdmin, name='admin'),
-    path('painel/', views.PageAdminDominio, name='admindominio'),
-    path('painel/', views.PageUser, name='userdominio'),
+    path('paineladmin/', views.PageAdminDominio, name='admindominio'),
+    path('paineluser/', views.PageUser, name='userdominio'),
     path('cadastrar/', views.PageCadastro, name='cadastrar'),
     path('unauthorized/', views.PageUnauthorized, name='unauthorized'),
     

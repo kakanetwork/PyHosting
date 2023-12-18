@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Painel do Administrador</title>
+    <style>
+        h3 {
+            color: red;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>OI USUARIO DE DOMINIO</h1>
+    
+    {% if mensagens %}
+        <script>
+            alert("{{ mensagens }}");
+        </script>
+
+    {% endif %}
+    
+
+    <h1>BEM VINDO, USUARIO</h1>
+
+    <br>
+
+    <br>
+    <!-- Botão para abrir o formulário -->
+    <button type="button" onclick="document.getElementById('trocarSenhaForm').style.display='block'">Trocar senha</button>
+    <br><br>    
+    <!-- Formulário oculto -->
+    <div id="trocarSenhaForm" style="display:none;">
+        <form action="{% url 'trocasenha' %}" method="post">
+            {% csrf_token %}
+            <label for="senhaAtual">Senha Atual:</label>
+            <input type="password" id="senhaAtual" name="senhaAtual" required>
+            <br><br>
+            <label for="novaSenha">Nova Senha:</label>
+            <input type="password" id="novaSenha" name="novaSenha" required>
+            <br><br>
+            <label for="confirmarSenha">Confirme sua Senha:</label>
+            <input type="password" id="confirmarSenha" name="confirmarSenha" required>
+            <br><br>
+    
+            <!-- Contêiner para os botões -->
+            <div style="display: flex;">
+                <button type="submit">Confirmar</button>
+                <button type="button" onclick="document.getElementById('trocarSenhaForm').style.display='none'">Fechar</button>
+            </div>
+            
+            <h3> Aviso: ao trocar a senha, voce sera desconectado!</h3>
+            <br><br>
+        </form>
+    </div>
+
+    <a href="{% url 'logout' %}">Sair da conta</a>
+
 </body>
+
 </html>
