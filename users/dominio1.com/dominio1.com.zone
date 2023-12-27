@@ -1,0 +1,22 @@
+
+$TTL 120
+$ORIGIN dominio1.com.
+
+@       IN SOA @ root (
+                1
+                2H              
+                30M            
+                1W              
+                10 )   
+
+        IN A 192.168.102.128
+        IN NS ns
+        IN MX 0 mail
+
+ns      IN A 192.168.102.128
+www     IN A 192.168.102.128
+ftp     IN CNAME www
+mail    IN A 192.168.102.128
+
+
+

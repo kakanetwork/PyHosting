@@ -1,0 +1,52 @@
+
+
+
+
+zone "dominio1.com" IN {
+    type master;
+    file "/projetoasa/users/dominio1.com/dominio1.com.zone";
+};
+
+
+
+zone "dominio2.com" IN {
+    type master;
+    file "/projetoasa/users/dominio2.com/dominio2.com.zone";
+};
+
+
+
+zone "dominio3.com" IN {
+    type master;
+    file "/projetoasa/users/dominio3.com/dominio3.com.zone";
+};
+
+
+
+zone "dominio4.com" IN {
+    type master;
+    file "/projetoasa/users/dominio4.com/dominio4.com.zone";
+};
+
+
+
+zone "dominio.mil" IN {
+    type master;
+    file "/projetoasa/users/dominio.mil/dominio.mil.zone";
+};
+
+
+
+zone "dominio5.eb" IN {
+    type master;
+    file "/projetoasa/users/dominio5.eb/dominio5.eb.zone";
+};
+
+
+
+zone "dominio6.com" IN {
+    type master;
+    file "/projetoasa/users/dominio6.com/dominio6.com.zone";
+};
+
+

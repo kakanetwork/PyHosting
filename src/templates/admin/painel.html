@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Administrador</title>
+    <style>
+        h3 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    
+    {% if mensagens %}
+        <script>
+            alert("{{ mensagens }}");
+        </script>
+
+    {% endif %}
+    
+
+    <h1>BEM VINDO, ADMIN</h1>
+
+    <ul>
+        {% for x in dados_dominios %}
+        <li>{{ x.dominio }}<a href="{% url 'remover_dominio' x.id %}" onclick="return confirm('Deseja remover o dominio?')" > [Remover]</a></li>
+        {% endfor %}
+    </ul>
+
+    <br>
+    <form action="{% url 'adicionar_dominio' %}" method="post">
+        {% csrf_token %}
+        <input type="text" name="nome_dominio" id="nome_dominio" placeholder="Novo Dominio" required>
+        <button type="submit">Criar</button>
+    </form>
+
+    <ul>
+        {% for x in dados_admdominio %}
+        <li>{{ x.email }}<a href="{% url 'senha_admdom' x.id %}" onclick="return confirm('Deseja trocar a senha do admin de dominio?')"> [Trocar Senha]</a></li>
+        {% endfor %}
+    </ul>
+
+    <br>
+
+    <br>
+    <button type="button" onclick="document.getElementById('trocarSenhaForm').style.display='block'">Trocar senha</button>
+    <br><br>    
+    <div id="trocarSenhaForm" style="display:none;">
+        <form action="{% url 'trocasenha' %}" method="post">
+            {% csrf_token %}
+            <label for="senhaAtual">Senha Atual:</label>
+            <input type="password" id="senhaAtual" name="senhaAtual" required>
+            <br><br>
+            <label for="novaSenha">Nova Senha:</label>
+            <input type="password" id="novaSenha" name="novaSenha" required>
+            <br><br>
+            <label for="confirmarSenha">Confirme sua Senha:</label>
+            <input type="password" id="confirmarSenha" name="confirmarSenha" required>
+            <br><br>
+    
+            <div style="display: flex;">
+                <button type="submit">Confirmar</button>
+                <button type="button" onclick="document.getElementById('trocarSenhaForm').style.display='none'">Fechar</button>
+            </div>
+            
+            <h3> Aviso: ao trocar a senha, voce sera desconectado!</h3>
+            <br><br>
+        </form>
+    </div>
+
+    <a href="{% url 'logout' %}">Sair da conta</a>
+
+</body>
+
+</html>

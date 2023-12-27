@@ -1,0 +1,116 @@
+
+
+
+
+
+<VirtualHost *:80>
+       <Directory /projetoasa/users/dominio1.com/>
+               AllowOverride all
+               Require all Granted
+	       Options Indexes
+       </Directory>
+       DocumentRoot "/projetoasa/users/dominio1.com/"
+       ServerName dominio1.com
+       ServerAlias www.dominio1.com
+       ErrorLog "/projetoasa/users/dominio1.com/error.log"
+       CustomLog "/projetoasa/users/dominio1.com/access.log" common
+</VirtualHost>
+
+
+
+
+<VirtualHost *:80>
+       <Directory /projetoasa/users/dominio2.com/>
+               AllowOverride all
+               Require all Granted
+	       Options Indexes
+       </Directory>
+       DocumentRoot "/projetoasa/users/dominio2.com/"
+       ServerName dominio2.com
+       ServerAlias www.dominio2.com
+       ErrorLog "/projetoasa/users/dominio2.com/error.log"
+       CustomLog "/projetoasa/users/dominio2.com/access.log" common
+</VirtualHost>
+
+
+
+
+<VirtualHost *:80>
+       <Directory /projetoasa/users/dominio3.com/>
+               AllowOverride all
+               Require all Granted
+	       Options Indexes
+       </Directory>
+       DocumentRoot "/projetoasa/users/dominio3.com/"
+       ServerName dominio3.com
+       ServerAlias www.dominio3.com
+       ErrorLog "/projetoasa/users/dominio3.com/error.log"
+       CustomLog "/projetoasa/users/dominio3.com/access.log" common
+</VirtualHost>
+
+
+
+
+<VirtualHost *:80>
+       <Directory /projetoasa/users/dominio4.com/>
+               AllowOverride all
+               Require all Granted
+	       Options Indexes
+       </Directory>
+       DocumentRoot "/projetoasa/users/dominio4.com/"
+       ServerName dominio4.com
+       ServerAlias www.dominio4.com
+       ErrorLog "/projetoasa/users/dominio4.com/error.log"
+       CustomLog "/projetoasa/users/dominio4.com/access.log" common
+</VirtualHost>
+
+
+
+
+<VirtualHost *:80>
+       <Directory /projetoasa/users/dominio.mil/>
+               AllowOverride all
+               Require all Granted
+	       Options Indexes
+       </Directory>
+       DocumentRoot "/projetoasa/users/dominio.mil/"
+       ServerName dominio.mil
+       ServerAlias www.dominio.mil
+       ErrorLog "/projetoasa/users/dominio.mil/error.log"
+       CustomLog "/projetoasa/users/dominio.mil/access.log" common
+</VirtualHost>
+
+
+
+
+<VirtualHost *:80>
+       <Directory /projetoasa/users/dominio5.eb/>
+               AllowOverride all
+               Require all Granted
+	       Options Indexes
+       </Directory>
+       DocumentRoot "/projetoasa/users/dominio5.eb/"
+       ServerName dominio5.eb
+       ServerAlias www.dominio5.eb
+       ErrorLog "/projetoasa/users/dominio5.eb/error.log"
+       CustomLog "/projetoasa/users/dominio5.eb/access.log" common
+</VirtualHost>
+
+
+
+
+<VirtualHost *:80>
+       <Directory /projetoasa/users/dominio6.com/>
+               AllowOverride all
+               Require all Granted
+	       Options Indexes
+       </Directory>
+       DocumentRoot "/projetoasa/users/dominio6.com/"
+       ServerName dominio6.com
+       ServerAlias www.dominio6.com
+       ErrorLog "/projetoasa/users/dominio6.com/error.log"
+       CustomLog "/projetoasa/users/dominio6.com/access.log" common
+</VirtualHost>
+
+
+

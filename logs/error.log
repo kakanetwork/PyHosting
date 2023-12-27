@@ -1,0 +1,1215 @@
+[Wed Dec 13 20:39:13.577372 2023] [wsgi:error] [pid 3155] [client 192.168.102.128:35282] No WSGI daemon process called 'projeto' has been configured: /projetoasa/src/projeto/wsgi.py
+[Wed Dec 13 20:39:13.841100 2023] [wsgi:error] [pid 3137] [client 192.168.102.128:35284] No WSGI daemon process called 'projeto' has been configured: /projetoasa/src/projeto/wsgi.py
+[Wed Dec 13 20:39:14.028417 2023] [wsgi:error] [pid 3167] [client 192.168.102.128:35286] No WSGI daemon process called 'projeto' has been configured: /projetoasa/src/projeto/wsgi.py
+[Wed Dec 13 20:39:14.029481 2023] [wsgi:error] [pid 3142] [client 192.168.102.128:35288] No WSGI daemon process called 'projeto' has been configured: /projetoasa/src/projeto/wsgi.py
+[Wed Dec 13 23:43:50.118900 2023] [wsgi:error] [pid 3298] [remote 192.168.102.128:35374] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Wed Dec 13 23:43:50.119729 2023] [wsgi:error] [pid 3298] [remote 192.168.102.128:35376] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Wed Dec 13 23:43:51.705692 2023] [wsgi:error] [pid 3298] [remote 192.168.102.128:35380] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Wed Dec 13 23:43:51.987599 2023] [wsgi:error] [pid 3298] [remote 192.168.102.128:35382] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Wed Dec 13 23:46:41.411336 2023] [wsgi:error] [pid 3298] [remote 192.168.102.128:35448] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Wed Dec 13 23:46:41.687924 2023] [wsgi:error] [pid 3298] [remote 192.168.102.128:35450] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Wed Dec 13 23:46:42.125216 2023] [wsgi:error] [pid 3298] [remote 192.168.102.128:35452] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Wed Dec 13 23:46:42.139803 2023] [wsgi:error] [pid 3298] [remote 192.168.102.128:35454] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Wed Dec 13 23:46:43.176637 2023] [wsgi:error] [pid 3298] [remote 192.168.102.128:35456] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Wed Dec 13 23:47:00.070392 2023] [wsgi:error] [pid 3539] [remote 192.168.102.128:35468] Not Found: /favicon.ico
+[Wed Dec 13 23:47:00.074110 2023] [wsgi:error] [pid 3539] [remote 192.168.102.128:35470] Not Found: /favicon.ico
+[Wed Dec 13 23:50:58.003658 2023] [wsgi:error] [pid 3735] [remote 192.168.102.128:35496] Not Found: /favicon.ico
+[Wed Dec 13 23:55:05.848621 2023] [wsgi:error] [pid 680] [remote 192.168.102.128:35562] Not Found: /favicon.ico
+[Wed Dec 13 19:00:27.353386 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35628] mod_wsgi (pid=898): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:00:27.353464 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35628] mod_wsgi (pid=898): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:00:27.353511 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35628] Traceback (most recent call last):
+[Wed Dec 13 19:00:27.353715 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35628]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Wed Dec 13 19:00:27.353727 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35628]     from django.core.wsgi import get_wsgi_application
+[Wed Dec 13 19:00:27.353957 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35628]   File "/usr/lib/python3.4/site-packages/django/__init__.py", line 1, in <module>
+[Wed Dec 13 19:00:27.353971 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35628]     from django.utils.version import get_version
+[Wed Dec 13 19:00:27.354151 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35628]   File "/usr/lib/python3.4/site-packages/django/utils/version.py", line 7, in <module>
+[Wed Dec 13 19:00:27.354176 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35628]     from django.utils.regex_helper import _lazy_re_compile
+[Wed Dec 13 19:00:27.354416 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35628]   File "/usr/lib/python3.4/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Wed Dec 13 19:00:27.354429 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35628]     from django.utils.functional import SimpleLazyObject
+[Wed Dec 13 19:00:27.354460 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35628]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 250
+[Wed Dec 13 19:00:27.354480 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35628]     if (_wrapped := self._wrapped) is empty:
+[Wed Dec 13 19:00:27.354514 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35628]                  ^
+[Wed Dec 13 19:00:27.354532 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35628] SyntaxError: invalid syntax
+[Wed Dec 13 19:00:27.417167 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35630] mod_wsgi (pid=898): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:00:27.417224 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35630] mod_wsgi (pid=898): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:00:27.417269 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35630] Traceback (most recent call last):
+[Wed Dec 13 19:00:27.417344 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35630]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Wed Dec 13 19:00:27.417355 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35630]     from django.core.wsgi import get_wsgi_application
+[Wed Dec 13 19:00:27.417399 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35630]   File "/usr/lib/python3.4/site-packages/django/__init__.py", line 1, in <module>
+[Wed Dec 13 19:00:27.417409 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35630]     from django.utils.version import get_version
+[Wed Dec 13 19:00:27.417450 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35630]   File "/usr/lib/python3.4/site-packages/django/utils/version.py", line 7, in <module>
+[Wed Dec 13 19:00:27.417459 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35630]     from django.utils.regex_helper import _lazy_re_compile
+[Wed Dec 13 19:00:27.417500 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35630]   File "/usr/lib/python3.4/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Wed Dec 13 19:00:27.417509 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35630]     from django.utils.functional import SimpleLazyObject
+[Wed Dec 13 19:00:27.417538 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35630]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 250
+[Wed Dec 13 19:00:27.417557 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35630]     if (_wrapped := self._wrapped) is empty:
+[Wed Dec 13 19:00:27.417591 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35630]                  ^
+[Wed Dec 13 19:00:27.417609 2023] [wsgi:error] [pid 898] [remote 192.168.102.128:35630] SyntaxError: invalid syntax
+[Wed Dec 13 19:02:51.726011 2023] [wsgi:error] [pid 1063] [client 192.168.102.128:35646] Timeout when reading response headers from daemon process 'projeto': /projetoasa/src/projeto/wsgi.py
+[Wed Dec 13 19:03:03.278004 2023] [wsgi:error] [pid 1081] [client 192.168.102.128:35652] Timeout when reading response headers from daemon process 'projeto': /projetoasa/src/projeto/wsgi.py
+[Wed Dec 13 19:03:05.442239 2023] [wsgi:error] [pid 1091] [client 192.168.102.128:35654] Timeout when reading response headers from daemon process 'projeto': /projetoasa/src/projeto/wsgi.py
+[Thu Dec 14 00:03:34.558162 2023] [wsgi:error] [pid 1387] [remote 192.168.102.128:35676] Not Found: /favicon.ico
+[Thu Dec 14 00:05:44.771473 2023] [wsgi:error] [pid 1387] [remote 192.168.102.128:35704] Not Found: /favicon.ico
+[Wed Dec 13 19:06:47.968384 2023] [wsgi:error] [pid 1621] [remote 192.168.102.128:35718] mod_wsgi (pid=1621): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:06:47.968509 2023] [wsgi:error] [pid 1621] [remote 192.168.102.128:35718] mod_wsgi (pid=1621): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:06:47.968751 2023] [wsgi:error] [pid 1621] [remote 192.168.102.128:35718] Traceback (most recent call last):
+[Wed Dec 13 19:06:47.969334 2023] [wsgi:error] [pid 1621] [remote 192.168.102.128:35718]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Wed Dec 13 19:06:47.969354 2023] [wsgi:error] [pid 1621] [remote 192.168.102.128:35718]     from django.core.wsgi import get_wsgi_application
+[Wed Dec 13 19:06:47.969587 2023] [wsgi:error] [pid 1621] [remote 192.168.102.128:35718]   File "/usr/lib/python3.4/site-packages/django/__init__.py", line 1, in <module>
+[Wed Dec 13 19:06:47.969606 2023] [wsgi:error] [pid 1621] [remote 192.168.102.128:35718]     from django.utils.version import get_version
+[Wed Dec 13 19:06:47.969898 2023] [wsgi:error] [pid 1621] [remote 192.168.102.128:35718]   File "/usr/lib/python3.4/site-packages/django/utils/version.py", line 7, in <module>
+[Wed Dec 13 19:06:47.969919 2023] [wsgi:error] [pid 1621] [remote 192.168.102.128:35718]     from django.utils.regex_helper import _lazy_re_compile
+[Wed Dec 13 19:06:47.970274 2023] [wsgi:error] [pid 1621] [remote 192.168.102.128:35718]   File "/usr/lib/python3.4/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Wed Dec 13 19:06:47.970293 2023] [wsgi:error] [pid 1621] [remote 192.168.102.128:35718]     from django.utils.functional import SimpleLazyObject
+[Wed Dec 13 19:06:47.970341 2023] [wsgi:error] [pid 1621] [remote 192.168.102.128:35718]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 250
+[Wed Dec 13 19:06:47.970372 2023] [wsgi:error] [pid 1621] [remote 192.168.102.128:35718]     if (_wrapped := self._wrapped) is empty:
+[Wed Dec 13 19:06:47.970424 2023] [wsgi:error] [pid 1621] [remote 192.168.102.128:35718]                  ^
+[Wed Dec 13 19:06:47.970453 2023] [wsgi:error] [pid 1621] [remote 192.168.102.128:35718] SyntaxError: invalid syntax
+[Wed Dec 13 19:12:36.202656 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35774] mod_wsgi (pid=2398): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:12:36.202762 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35774] mod_wsgi (pid=2398): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:12:36.202830 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35774] Traceback (most recent call last):
+[Wed Dec 13 19:12:36.203137 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35774]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Wed Dec 13 19:12:36.203156 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35774]     from django.core.wsgi import get_wsgi_application
+[Wed Dec 13 19:12:36.203393 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35774]   File "/usr/lib/python3.4/site-packages/django/core/wsgi.py", line 2, in <module>
+[Wed Dec 13 19:12:36.203411 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35774]     from django.core.handlers.wsgi import WSGIHandler
+[Wed Dec 13 19:12:36.203459 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35774]   File "/usr/lib/python3.4/site-packages/django/core/handlers/wsgi.py", line 147
+[Wed Dec 13 19:12:36.203491 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35774]     *response.items(),
+[Wed Dec 13 19:12:36.203539 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35774]                ^
+[Wed Dec 13 19:12:36.203567 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35774] SyntaxError: can use starred expression only as assignment target
+[Wed Dec 13 19:12:37.880960 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35776] mod_wsgi (pid=2398): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:12:37.881078 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35776] mod_wsgi (pid=2398): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:12:37.881150 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35776] Traceback (most recent call last):
+[Wed Dec 13 19:12:37.881255 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35776]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Wed Dec 13 19:12:37.881271 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35776]     from django.core.wsgi import get_wsgi_application
+[Wed Dec 13 19:12:37.881340 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35776]   File "/usr/lib/python3.4/site-packages/django/core/wsgi.py", line 2, in <module>
+[Wed Dec 13 19:12:37.881355 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35776]     from django.core.handlers.wsgi import WSGIHandler
+[Wed Dec 13 19:12:37.881399 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35776]   File "/usr/lib/python3.4/site-packages/django/core/handlers/wsgi.py", line 147
+[Wed Dec 13 19:12:37.881429 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35776]     *response.items(),
+[Wed Dec 13 19:12:37.881479 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35776]                ^
+[Wed Dec 13 19:12:37.881508 2023] [wsgi:error] [pid 2398] [remote 192.168.102.128:35776] SyntaxError: can use starred expression only as assignment target
+[Wed Dec 13 19:15:40.577082 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804] mod_wsgi (pid=2503): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:15:40.577172 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804] mod_wsgi (pid=2503): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:15:40.577226 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804] Traceback (most recent call last):
+[Wed Dec 13 19:15:40.577452 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Wed Dec 13 19:15:40.577465 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]     from django.core.wsgi import get_wsgi_application
+[Wed Dec 13 19:15:40.577623 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]   File "/usr/lib/python3.4/site-packages/django/core/wsgi.py", line 2, in <module>
+[Wed Dec 13 19:15:40.577635 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]     from django.core.handlers.wsgi import WSGIHandler
+[Wed Dec 13 19:15:40.578057 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]   File "/usr/lib/python3.4/site-packages/django/core/handlers/wsgi.py", line 8, in <module>
+[Wed Dec 13 19:15:40.578074 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]     from django.core.handlers import base
+[Wed Dec 13 19:15:40.578300 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]   File "/usr/lib/python3.4/site-packages/django/core/handlers/base.py", line 7, in <module>
+[Wed Dec 13 19:15:40.578313 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]     from django.urls import get_resolver, set_urlconf
+[Wed Dec 13 19:15:40.578476 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]   File "/usr/lib/python3.4/site-packages/django/urls/__init__.py", line 1, in <module>
+[Wed Dec 13 19:15:40.578489 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]     from .base import (
+[Wed Dec 13 19:15:40.578700 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]   File "/usr/lib/python3.4/site-packages/django/urls/base.py", line 8, in <module>
+[Wed Dec 13 19:15:40.578713 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]     from .exceptions import NoReverseMatch, Resolver404
+[Wed Dec 13 19:15:40.578882 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]   File "/usr/lib/python3.4/site-packages/django/urls/exceptions.py", line 1, in <module>
+[Wed Dec 13 19:15:40.578895 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]     from django.http import Http404
+[Wed Dec 13 19:15:40.579067 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]   File "/usr/lib/python3.4/site-packages/django/http/__init__.py", line 5, in <module>
+[Wed Dec 13 19:15:40.579079 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]     from django.http.response import (
+[Wed Dec 13 19:15:40.579360 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]   File "/usr/lib/python3.4/site-packages/django/http/response.py", line 13, in <module>
+[Wed Dec 13 19:15:40.579373 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]     from django.core.serializers.json import DjangoJSONEncoder
+[Wed Dec 13 19:15:40.579592 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]   File "/usr/lib/python3.4/site-packages/django/core/serializers/__init__.py", line 23, in <module>
+[Wed Dec 13 19:15:40.579604 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]     from django.core.serializers.base import SerializerDoesNotExist
+[Wed Dec 13 19:15:40.579825 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]   File "/usr/lib/python3.4/site-packages/django/core/serializers/base.py", line 6, in <module>
+[Wed Dec 13 19:15:40.579837 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]     from django.db import models
+[Wed Dec 13 19:15:40.580007 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]   File "/usr/lib/python3.4/site-packages/django/db/models/__init__.py", line 14, in <module>
+[Wed Dec 13 19:15:40.580019 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]     from django.db.models.fields.files import FileField, ImageField
+[Wed Dec 13 19:15:40.580355 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]   File "/usr/lib/python3.4/site-packages/django/db/models/fields/files.py", line 8, in <module>
+[Wed Dec 13 19:15:40.580369 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]     from django.core.files.storage import default_storage
+[Wed Dec 13 19:15:40.580526 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]   File "/usr/lib/python3.4/site-packages/django/core/files/storage/__init__.py", line 3, in <module>
+[Wed Dec 13 19:15:40.580538 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804]     from django.conf import DEFAULT_STORAGE_ALIAS, settings
+[Wed Dec 13 19:15:40.580570 2023] [wsgi:error] [pid 2503] [remote 192.168.102.128:35804] ImportError: cannot import name 'DEFAULT_STORAGE_ALIAS'
+[Wed Dec 13 19:19:13.951629 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832] mod_wsgi (pid=2596): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:19:13.951717 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832] mod_wsgi (pid=2596): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:19:13.951767 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832] Traceback (most recent call last):
+[Wed Dec 13 19:19:13.951997 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Wed Dec 13 19:19:13.952010 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]     from django.core.wsgi import get_wsgi_application
+[Wed Dec 13 19:19:13.952168 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]   File "/usr/lib/python3.4/site-packages/django/core/wsgi.py", line 2, in <module>
+[Wed Dec 13 19:19:13.952181 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]     from django.core.handlers.wsgi import WSGIHandler
+[Wed Dec 13 19:19:13.952394 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]   File "/usr/lib/python3.4/site-packages/django/core/handlers/wsgi.py", line 8, in <module>
+[Wed Dec 13 19:19:13.952407 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]     from django.core.handlers import base
+[Wed Dec 13 19:19:13.952596 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]   File "/usr/lib/python3.4/site-packages/django/core/handlers/base.py", line 7, in <module>
+[Wed Dec 13 19:19:13.952608 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]     from django.urls import get_resolver, set_urlconf
+[Wed Dec 13 19:19:13.952781 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]   File "/usr/lib/python3.4/site-packages/django/urls/__init__.py", line 1, in <module>
+[Wed Dec 13 19:19:13.952793 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]     from .base import (
+[Wed Dec 13 19:19:13.953000 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]   File "/usr/lib/python3.4/site-packages/django/urls/base.py", line 8, in <module>
+[Wed Dec 13 19:19:13.953012 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]     from .exceptions import NoReverseMatch, Resolver404
+[Wed Dec 13 19:19:13.953168 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]   File "/usr/lib/python3.4/site-packages/django/urls/exceptions.py", line 1, in <module>
+[Wed Dec 13 19:19:13.953180 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]     from django.http import Http404
+[Wed Dec 13 19:19:13.953327 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]   File "/usr/lib/python3.4/site-packages/django/http/__init__.py", line 5, in <module>
+[Wed Dec 13 19:19:13.953339 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]     from django.http.response import (
+[Wed Dec 13 19:19:13.953614 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]   File "/usr/lib/python3.4/site-packages/django/http/response.py", line 13, in <module>
+[Wed Dec 13 19:19:13.953627 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]     from django.core.serializers.json import DjangoJSONEncoder
+[Wed Dec 13 19:19:13.953835 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]   File "/usr/lib/python3.4/site-packages/django/core/serializers/__init__.py", line 23, in <module>
+[Wed Dec 13 19:19:13.953847 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]     from django.core.serializers.base import SerializerDoesNotExist
+[Wed Dec 13 19:19:13.954077 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]   File "/usr/lib/python3.4/site-packages/django/core/serializers/base.py", line 6, in <module>
+[Wed Dec 13 19:19:13.954090 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]     from django.db import models
+[Wed Dec 13 19:19:13.954249 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]   File "/usr/lib/python3.4/site-packages/django/db/models/__init__.py", line 14, in <module>
+[Wed Dec 13 19:19:13.954261 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]     from django.db.models.fields.files import FileField, ImageField
+[Wed Dec 13 19:19:13.954524 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]   File "/usr/lib/python3.4/site-packages/django/db/models/fields/files.py", line 8, in <module>
+[Wed Dec 13 19:19:13.954537 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]     from django.core.files.storage import default_storage
+[Wed Dec 13 19:19:13.954687 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]   File "/usr/lib/python3.4/site-packages/django/core/files/storage/__init__.py", line 3, in <module>
+[Wed Dec 13 19:19:13.954700 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832]     from django.conf import DEFAULT_STORAGE_ALIAS
+[Wed Dec 13 19:19:13.954731 2023] [wsgi:error] [pid 2596] [remote 192.168.102.128:35832] ImportError: cannot import name 'DEFAULT_STORAGE_ALIAS'
+[Thu Dec 14 00:29:35.580457 2023] [wsgi:error] [pid 2761] [remote 192.168.102.128:35938] Not Found: /favicon.ico
+[Wed Dec 13 19:34:26.874346 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35996] mod_wsgi (pid=2929): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:34:26.874462 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35996] mod_wsgi (pid=2929): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:34:26.874534 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35996] Traceback (most recent call last):
+[Wed Dec 13 19:34:26.874863 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35996]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Wed Dec 13 19:34:26.874900 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35996]     from django.core.wsgi import get_wsgi_application
+[Wed Dec 13 19:34:26.875213 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35996]   File "/usr/lib/python3.4/site-packages/django/core/wsgi.py", line 2, in <module>
+[Wed Dec 13 19:34:26.875233 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35996]     from django.core.handlers.wsgi import WSGIHandler
+[Wed Dec 13 19:34:26.875282 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35996]   File "/usr/lib/python3.4/site-packages/django/core/handlers/wsgi.py", line 139
+[Wed Dec 13 19:34:26.875316 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35996]     *response.items(),
+[Wed Dec 13 19:34:26.875422 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35996]                ^
+[Wed Dec 13 19:34:26.875457 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35996] SyntaxError: can use starred expression only as assignment target
+[Wed Dec 13 19:34:26.985404 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35998] mod_wsgi (pid=2929): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:34:26.985498 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35998] mod_wsgi (pid=2929): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:34:26.985572 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35998] Traceback (most recent call last):
+[Wed Dec 13 19:34:26.985685 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35998]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Wed Dec 13 19:34:26.985704 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35998]     from django.core.wsgi import get_wsgi_application
+[Wed Dec 13 19:34:26.985774 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35998]   File "/usr/lib/python3.4/site-packages/django/core/wsgi.py", line 2, in <module>
+[Wed Dec 13 19:34:26.985791 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35998]     from django.core.handlers.wsgi import WSGIHandler
+[Wed Dec 13 19:34:26.985836 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35998]   File "/usr/lib/python3.4/site-packages/django/core/handlers/wsgi.py", line 139
+[Wed Dec 13 19:34:26.985904 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35998]     *response.items(),
+[Wed Dec 13 19:34:26.985980 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35998]                ^
+[Wed Dec 13 19:34:26.986014 2023] [wsgi:error] [pid 2929] [remote 192.168.102.128:35998] SyntaxError: can use starred expression only as assignment target
+[Wed Dec 13 19:47:13.076273 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118] mod_wsgi (pid=3900): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:47:13.076362 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118] mod_wsgi (pid=3900): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:47:13.076414 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118] Traceback (most recent call last):
+[Wed Dec 13 19:47:13.076636 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Wed Dec 13 19:47:13.076649 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]     from django.core.wsgi import get_wsgi_application
+[Wed Dec 13 19:47:13.076819 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]   File "/usr/lib/python3.4/site-packages/django/core/wsgi.py", line 2, in <module>
+[Wed Dec 13 19:47:13.076832 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]     from django.core.handlers.wsgi import WSGIHandler
+[Wed Dec 13 19:47:13.077071 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]   File "/usr/lib/python3.4/site-packages/django/core/handlers/wsgi.py", line 8, in <module>
+[Wed Dec 13 19:47:13.077084 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]     from django.core.handlers import base
+[Wed Dec 13 19:47:13.077295 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]   File "/usr/lib/python3.4/site-packages/django/core/handlers/base.py", line 7, in <module>
+[Wed Dec 13 19:47:13.077307 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]     from django.urls import get_resolver, set_urlconf
+[Wed Dec 13 19:47:13.077467 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]   File "/usr/lib/python3.4/site-packages/django/urls/__init__.py", line 1, in <module>
+[Wed Dec 13 19:47:13.077479 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]     from .base import (
+[Wed Dec 13 19:47:13.077678 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]   File "/usr/lib/python3.4/site-packages/django/urls/base.py", line 8, in <module>
+[Wed Dec 13 19:47:13.077690 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]     from .exceptions import NoReverseMatch, Resolver404
+[Wed Dec 13 19:47:13.077850 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]   File "/usr/lib/python3.4/site-packages/django/urls/exceptions.py", line 1, in <module>
+[Wed Dec 13 19:47:13.077879 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]     from django.http import Http404
+[Wed Dec 13 19:47:13.078043 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]   File "/usr/lib/python3.4/site-packages/django/http/__init__.py", line 5, in <module>
+[Wed Dec 13 19:47:13.078055 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]     from django.http.response import (
+[Wed Dec 13 19:47:13.078338 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]   File "/usr/lib/python3.4/site-packages/django/http/response.py", line 13, in <module>
+[Wed Dec 13 19:47:13.078350 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]     from django.core.serializers.json import DjangoJSONEncoder
+[Wed Dec 13 19:47:13.078567 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]   File "/usr/lib/python3.4/site-packages/django/core/serializers/__init__.py", line 23, in <module>
+[Wed Dec 13 19:47:13.078580 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]     from django.core.serializers.base import SerializerDoesNotExist
+[Wed Dec 13 19:47:13.078819 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]   File "/usr/lib/python3.4/site-packages/django/core/serializers/base.py", line 6, in <module>
+[Wed Dec 13 19:47:13.078832 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]     from django.db import models
+[Wed Dec 13 19:47:13.079005 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]   File "/usr/lib/python3.4/site-packages/django/db/models/__init__.py", line 14, in <module>
+[Wed Dec 13 19:47:13.079017 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]     from django.db.models.fields.files import FileField, ImageField
+[Wed Dec 13 19:47:13.079293 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]   File "/usr/lib/python3.4/site-packages/django/db/models/fields/files.py", line 8, in <module>
+[Wed Dec 13 19:47:13.079306 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]     from django.core.files.storage import default_storage
+[Wed Dec 13 19:47:13.079522 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]   File "/usr/lib/python3.4/site-packages/django/core/files/storage/__init__.py", line 3, in <module>
+[Wed Dec 13 19:47:13.079535 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118]     from django.conf import DEFAULT_STORAGE_ALIAS
+[Wed Dec 13 19:47:13.079567 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36118] ImportError: cannot import name 'DEFAULT_STORAGE_ALIAS'
+[Wed Dec 13 19:47:13.084082 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120] mod_wsgi (pid=3900): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:47:13.084152 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120] mod_wsgi (pid=3900): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:47:13.084209 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120] Traceback (most recent call last):
+[Wed Dec 13 19:47:13.084280 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Wed Dec 13 19:47:13.084291 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]     from django.core.wsgi import get_wsgi_application
+[Wed Dec 13 19:47:13.084335 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]   File "/usr/lib/python3.4/site-packages/django/core/wsgi.py", line 2, in <module>
+[Wed Dec 13 19:47:13.084344 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]     from django.core.handlers.wsgi import WSGIHandler
+[Wed Dec 13 19:47:13.084385 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]   File "/usr/lib/python3.4/site-packages/django/core/handlers/wsgi.py", line 8, in <module>
+[Wed Dec 13 19:47:13.084394 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]     from django.core.handlers import base
+[Wed Dec 13 19:47:13.084434 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]   File "/usr/lib/python3.4/site-packages/django/core/handlers/base.py", line 7, in <module>
+[Wed Dec 13 19:47:13.084443 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]     from django.urls import get_resolver, set_urlconf
+[Wed Dec 13 19:47:13.084482 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]   File "/usr/lib/python3.4/site-packages/django/urls/__init__.py", line 1, in <module>
+[Wed Dec 13 19:47:13.084491 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]     from .base import (
+[Wed Dec 13 19:47:13.084531 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]   File "/usr/lib/python3.4/site-packages/django/urls/base.py", line 8, in <module>
+[Wed Dec 13 19:47:13.084540 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]     from .exceptions import NoReverseMatch, Resolver404
+[Wed Dec 13 19:47:13.084580 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]   File "/usr/lib/python3.4/site-packages/django/urls/exceptions.py", line 1, in <module>
+[Wed Dec 13 19:47:13.084589 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]     from django.http import Http404
+[Wed Dec 13 19:47:13.084628 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]   File "/usr/lib/python3.4/site-packages/django/http/__init__.py", line 5, in <module>
+[Wed Dec 13 19:47:13.084637 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]     from django.http.response import (
+[Wed Dec 13 19:47:13.084677 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]   File "/usr/lib/python3.4/site-packages/django/http/response.py", line 13, in <module>
+[Wed Dec 13 19:47:13.084686 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]     from django.core.serializers.json import DjangoJSONEncoder
+[Wed Dec 13 19:47:13.084726 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]   File "/usr/lib/python3.4/site-packages/django/core/serializers/__init__.py", line 23, in <module>
+[Wed Dec 13 19:47:13.084735 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]     from django.core.serializers.base import SerializerDoesNotExist
+[Wed Dec 13 19:47:13.084775 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]   File "/usr/lib/python3.4/site-packages/django/core/serializers/base.py", line 6, in <module>
+[Wed Dec 13 19:47:13.084806 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]     from django.db import models
+[Wed Dec 13 19:47:13.084855 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]   File "/usr/lib/python3.4/site-packages/django/db/models/__init__.py", line 2, in <module>
+[Wed Dec 13 19:47:13.084865 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120]     from django.db.models import signals
+[Wed Dec 13 19:47:13.084893 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36120] ImportError: cannot import name 'signals'
+[Wed Dec 13 19:47:14.226359 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124] mod_wsgi (pid=3900): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:47:14.226473 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124] mod_wsgi (pid=3900): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Wed Dec 13 19:47:14.226541 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124] Traceback (most recent call last):
+[Wed Dec 13 19:47:14.226642 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Wed Dec 13 19:47:14.226658 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]     from django.core.wsgi import get_wsgi_application
+[Wed Dec 13 19:47:14.226725 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]   File "/usr/lib/python3.4/site-packages/django/core/wsgi.py", line 2, in <module>
+[Wed Dec 13 19:47:14.226739 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]     from django.core.handlers.wsgi import WSGIHandler
+[Wed Dec 13 19:47:14.226803 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]   File "/usr/lib/python3.4/site-packages/django/core/handlers/wsgi.py", line 8, in <module>
+[Wed Dec 13 19:47:14.226817 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]     from django.core.handlers import base
+[Wed Dec 13 19:47:14.226879 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]   File "/usr/lib/python3.4/site-packages/django/core/handlers/base.py", line 7, in <module>
+[Wed Dec 13 19:47:14.226892 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]     from django.urls import get_resolver, set_urlconf
+[Wed Dec 13 19:47:14.226955 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]   File "/usr/lib/python3.4/site-packages/django/urls/__init__.py", line 1, in <module>
+[Wed Dec 13 19:47:14.226968 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]     from .base import (
+[Wed Dec 13 19:47:14.227030 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]   File "/usr/lib/python3.4/site-packages/django/urls/base.py", line 8, in <module>
+[Wed Dec 13 19:47:14.227044 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]     from .exceptions import NoReverseMatch, Resolver404
+[Wed Dec 13 19:47:14.227106 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]   File "/usr/lib/python3.4/site-packages/django/urls/exceptions.py", line 1, in <module>
+[Wed Dec 13 19:47:14.227119 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]     from django.http import Http404
+[Wed Dec 13 19:47:14.227240 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]   File "/usr/lib/python3.4/site-packages/django/http/__init__.py", line 5, in <module>
+[Wed Dec 13 19:47:14.227257 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]     from django.http.response import (
+[Wed Dec 13 19:47:14.227327 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]   File "/usr/lib/python3.4/site-packages/django/http/response.py", line 13, in <module>
+[Wed Dec 13 19:47:14.227342 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]     from django.core.serializers.json import DjangoJSONEncoder
+[Wed Dec 13 19:47:14.227405 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]   File "/usr/lib/python3.4/site-packages/django/core/serializers/__init__.py", line 23, in <module>
+[Wed Dec 13 19:47:14.227419 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]     from django.core.serializers.base import SerializerDoesNotExist
+[Wed Dec 13 19:47:14.227482 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]   File "/usr/lib/python3.4/site-packages/django/core/serializers/base.py", line 6, in <module>
+[Wed Dec 13 19:47:14.227495 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]     from django.db import models
+[Wed Dec 13 19:47:14.227558 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]   File "/usr/lib/python3.4/site-packages/django/db/models/__init__.py", line 2, in <module>
+[Wed Dec 13 19:47:14.227572 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124]     from django.db.models import signals
+[Wed Dec 13 19:47:14.227631 2023] [wsgi:error] [pid 3900] [remote 192.168.102.128:36124] ImportError: cannot import name 'signals'
+[Fri Dec 15 17:47:29.924053 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37702] mod_wsgi (pid=689): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Fri Dec 15 17:47:29.934564 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37702] mod_wsgi (pid=689): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Fri Dec 15 17:47:29.934647 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37702] Traceback (most recent call last):
+[Fri Dec 15 17:47:29.934996 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37702]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Fri Dec 15 17:47:29.935015 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37702]     from django.core.wsgi import get_wsgi_application
+[Fri Dec 15 17:47:29.941536 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37702]   File "/usr/lib/python3.4/site-packages/django/__init__.py", line 1, in <module>
+[Fri Dec 15 17:47:29.941559 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37702]     from django.utils.version import get_version
+[Fri Dec 15 17:47:29.954454 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37702]   File "/usr/lib/python3.4/site-packages/django/utils/version.py", line 7, in <module>
+[Fri Dec 15 17:47:29.954480 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37702]     from django.utils.regex_helper import _lazy_re_compile
+[Fri Dec 15 17:47:29.967400 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37702]   File "/usr/lib/python3.4/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Fri Dec 15 17:47:29.967424 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37702]     from django.utils.functional import SimpleLazyObject
+[Fri Dec 15 17:47:29.967477 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37702]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 250
+[Fri Dec 15 17:47:29.967508 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37702]     if (_wrapped := self._wrapped) is empty:
+[Fri Dec 15 17:47:29.967562 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37702]                  ^
+[Fri Dec 15 17:47:29.967590 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37702] SyntaxError: invalid syntax
+[Fri Dec 15 17:47:30.104887 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37704] mod_wsgi (pid=689): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Fri Dec 15 17:47:30.104972 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37704] mod_wsgi (pid=689): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Fri Dec 15 17:47:30.105035 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37704] Traceback (most recent call last):
+[Fri Dec 15 17:47:30.105142 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37704]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Fri Dec 15 17:47:30.105158 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37704]     from django.core.wsgi import get_wsgi_application
+[Fri Dec 15 17:47:30.105225 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37704]   File "/usr/lib/python3.4/site-packages/django/__init__.py", line 1, in <module>
+[Fri Dec 15 17:47:30.105239 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37704]     from django.utils.version import get_version
+[Fri Dec 15 17:47:30.105303 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37704]   File "/usr/lib/python3.4/site-packages/django/utils/version.py", line 7, in <module>
+[Fri Dec 15 17:47:30.105317 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37704]     from django.utils.regex_helper import _lazy_re_compile
+[Fri Dec 15 17:47:30.105380 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37704]   File "/usr/lib/python3.4/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Fri Dec 15 17:47:30.105395 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37704]     from django.utils.functional import SimpleLazyObject
+[Fri Dec 15 17:47:30.105455 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37704]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 250
+[Fri Dec 15 17:47:30.105487 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37704]     if (_wrapped := self._wrapped) is empty:
+[Fri Dec 15 17:47:30.105539 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37704]                  ^
+[Fri Dec 15 17:47:30.105567 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37704] SyntaxError: invalid syntax
+[Fri Dec 15 17:47:30.355260 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37706] mod_wsgi (pid=689): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Fri Dec 15 17:47:30.355318 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37706] mod_wsgi (pid=689): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Fri Dec 15 17:47:30.355359 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37706] Traceback (most recent call last):
+[Fri Dec 15 17:47:30.355424 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37706]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Fri Dec 15 17:47:30.355434 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37706]     from django.core.wsgi import get_wsgi_application
+[Fri Dec 15 17:47:30.355476 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37706]   File "/usr/lib/python3.4/site-packages/django/__init__.py", line 1, in <module>
+[Fri Dec 15 17:47:30.355485 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37706]     from django.utils.version import get_version
+[Fri Dec 15 17:47:30.355525 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37706]   File "/usr/lib/python3.4/site-packages/django/utils/version.py", line 7, in <module>
+[Fri Dec 15 17:47:30.355534 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37706]     from django.utils.regex_helper import _lazy_re_compile
+[Fri Dec 15 17:47:30.355573 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37706]   File "/usr/lib/python3.4/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Fri Dec 15 17:47:30.355582 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37706]     from django.utils.functional import SimpleLazyObject
+[Fri Dec 15 17:47:30.355610 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37706]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 250
+[Fri Dec 15 17:47:30.355628 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37706]     if (_wrapped := self._wrapped) is empty:
+[Fri Dec 15 17:47:30.355661 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37706]                  ^
+[Fri Dec 15 17:47:30.355678 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37706] SyntaxError: invalid syntax
+[Fri Dec 15 17:47:30.362050 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37708] mod_wsgi (pid=689): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Fri Dec 15 17:47:30.362103 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37708] mod_wsgi (pid=689): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Fri Dec 15 17:47:30.362143 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37708] Traceback (most recent call last):
+[Fri Dec 15 17:47:30.362205 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37708]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Fri Dec 15 17:47:30.362215 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37708]     from django.core.wsgi import get_wsgi_application
+[Fri Dec 15 17:47:30.362257 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37708]   File "/usr/lib/python3.4/site-packages/django/__init__.py", line 1, in <module>
+[Fri Dec 15 17:47:30.362266 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37708]     from django.utils.version import get_version
+[Fri Dec 15 17:47:30.362306 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37708]   File "/usr/lib/python3.4/site-packages/django/utils/version.py", line 7, in <module>
+[Fri Dec 15 17:47:30.362322 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37708]     from django.utils.regex_helper import _lazy_re_compile
+[Fri Dec 15 17:47:30.362364 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37708]   File "/usr/lib/python3.4/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Fri Dec 15 17:47:30.362374 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37708]     from django.utils.functional import SimpleLazyObject
+[Fri Dec 15 17:47:30.362400 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37708]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 250
+[Fri Dec 15 17:47:30.362419 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37708]     if (_wrapped := self._wrapped) is empty:
+[Fri Dec 15 17:47:30.362451 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37708]                  ^
+[Fri Dec 15 17:47:30.362469 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37708] SyntaxError: invalid syntax
+[Fri Dec 15 17:47:41.201091 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37716] mod_wsgi (pid=689): Failed to exec Python script file '/projetoasa/src/projeto/wsgi.py'.
+[Fri Dec 15 17:47:41.201200 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37716] mod_wsgi (pid=689): Exception occurred processing WSGI script '/projetoasa/src/projeto/wsgi.py'.
+[Fri Dec 15 17:47:41.201273 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37716] Traceback (most recent call last):
+[Fri Dec 15 17:47:41.201390 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37716]   File "/projetoasa/src/projeto/wsgi.py", line 12, in <module>
+[Fri Dec 15 17:47:41.201406 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37716]     from django.core.wsgi import get_wsgi_application
+[Fri Dec 15 17:47:41.201473 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37716]   File "/usr/lib/python3.4/site-packages/django/__init__.py", line 1, in <module>
+[Fri Dec 15 17:47:41.201487 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37716]     from django.utils.version import get_version
+[Fri Dec 15 17:47:41.201550 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37716]   File "/usr/lib/python3.4/site-packages/django/utils/version.py", line 7, in <module>
+[Fri Dec 15 17:47:41.201563 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37716]     from django.utils.regex_helper import _lazy_re_compile
+[Fri Dec 15 17:47:41.201625 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37716]   File "/usr/lib/python3.4/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Fri Dec 15 17:47:41.201638 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37716]     from django.utils.functional import SimpleLazyObject
+[Fri Dec 15 17:47:41.201681 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37716]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 250
+[Fri Dec 15 17:47:41.201710 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37716]     if (_wrapped := self._wrapped) is empty:
+[Fri Dec 15 17:47:41.201760 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37716]                  ^
+[Fri Dec 15 17:47:41.201787 2023] [wsgi:error] [pid 689] [remote 192.168.102.128:37716] SyntaxError: invalid syntax
+[Fri Dec 15 22:50:39.390322 2023] [wsgi:error] [pid 966] [remote 192.168.102.128:37746] Not Found: /favicon.ico
+[Sun Dec 17 17:53:04.093376 2023] [wsgi:error] [pid 800] [remote 192.168.102.128:39438] Not Found: /favicon.ico
+[Sun Dec 17 17:53:05.503952 2023] [wsgi:error] [pid 800] [remote 192.168.102.128:39438] Not Found: /favicon.ico
+[Sun Dec 17 18:11:54.424594 2023] [wsgi:error] [pid 1358] [remote 192.168.102.128:39562] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Sun Dec 17 18:11:55.055587 2023] [wsgi:error] [pid 1358] [remote 192.168.102.128:39568] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Sun Dec 17 18:12:21.816533 2023] [wsgi:error] [pid 1358] [remote 192.168.102.128:39570] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Sun Dec 17 18:12:23.448861 2023] [wsgi:error] [pid 1358] [remote 192.168.102.128:39572] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Sun Dec 17 18:13:02.958285 2023] [wsgi:error] [pid 1519] [remote 192.168.102.128:39586] Not Found: /favicon.ico
+[Sun Dec 17 18:30:43.513487 2023] [wsgi:error] [pid 1519] [remote 192.168.102.128:39670] Not Found: /favicon.ico
+[Sun Dec 17 18:30:44.451577 2023] [wsgi:error] [pid 1519] [remote 192.168.102.128:39670] Not Found: /favicon.ico
+[Sun Dec 17 13:33:31.400207 2023] [wsgi:error] [pid 1848] [client 192.168.102.128:39708] Timeout when reading response headers from daemon process 'pyhosting': /projetoasa/src/pyhosting/wsgi.py
+[Sun Dec 17 13:33:34.005191 2023] [wsgi:error] [pid 1861] [client 192.168.102.128:39714] Timeout when reading response headers from daemon process 'pyhosting': /projetoasa/src/pyhosting/wsgi.py
+[Sun Dec 17 13:34:11.683295 2023] [wsgi:error] [pid 1845] [client 192.168.102.128:39736] Timeout when reading response headers from daemon process 'pyhosting': /projetoasa/src/pyhosting/wsgi.py
+[Sun Dec 17 13:34:23.794040 2023] [wsgi:error] [pid 1874] [client 192.168.102.128:39744] Timeout when reading response headers from daemon process 'pyhosting': /projetoasa/src/pyhosting/wsgi.py
+[Sun Dec 17 13:35:24.551121 2023] [wsgi:error] [pid 1874] [client 192.168.102.128:39744] Timeout when reading response headers from daemon process 'pyhosting': /projetoasa/src/pyhosting/wsgi.py
+[Sun Dec 17 13:35:25.154315 2023] [wsgi:error] [pid 1868] [client 192.168.102.128:39754] Timeout when reading response headers from daemon process 'pyhosting': /projetoasa/src/pyhosting/wsgi.py
+[Sun Dec 17 13:36:45.333450 2023] [wsgi:error] [pid 2217] [client 192.168.102.128:39772] Timeout when reading response headers from daemon process 'pyhosting': /projetoasa/src/pyhosting/wsgi.py
+[Sun Dec 17 23:23:42.208655 2023] [wsgi:error] [pid 3160] [remote 192.168.102.128:42722] Not Found: /favicon.ico
+[Mon Dec 18 00:23:55.130459 2023] [wsgi:error] [pid 3464] [remote 192.168.102.128:43236] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Mon Dec 18 00:23:55.671434 2023] [wsgi:error] [pid 3464] [remote 192.168.102.128:43242] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Mon Dec 18 00:25:15.531668 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43272] Not Found: /favicon.ico
+[Mon Dec 18 00:25:16.185310 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43272] Not Found: /favicon.ico
+[Mon Dec 18 00:25:41.824282 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282] Redirecionamento para admin
+[Mon Dec 18 00:25:42.030659 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282] Internal Server Error: /
+[Mon Dec 18 00:25:42.030699 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282] Traceback (most recent call last):
+[Mon Dec 18 00:25:42.030708 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/db/backends/utils.py", line 85, in _execute
+[Mon Dec 18 00:25:42.030716 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     return self.cursor.execute(sql, params)
+[Mon Dec 18 00:25:42.030723 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/db/backends/sqlite3/base.py", line 305, in execute
+[Mon Dec 18 00:25:42.030731 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     return Database.Cursor.execute(self, query, params)
+[Mon Dec 18 00:25:42.030738 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282] sqlite3.OperationalError: attempt to write a readonly database
+[Mon Dec 18 00:25:42.030745 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282] 
+[Mon Dec 18 00:25:42.030752 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282] The above exception was the direct cause of the following exception:
+[Mon Dec 18 00:25:42.030759 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282] 
+[Mon Dec 18 00:25:42.030791 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282] Traceback (most recent call last):
+[Mon Dec 18 00:25:42.030800 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+[Mon Dec 18 00:25:42.030807 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     response = get_response(request)
+[Mon Dec 18 00:25:42.030813 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/utils/deprecation.py", line 97, in __call__
+[Mon Dec 18 00:25:42.030820 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     response = self.process_response(request, response)
+[Mon Dec 18 00:25:42.030827 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/contrib/sessions/middleware.py", line 58, in process_response
+[Mon Dec 18 00:25:42.030834 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     request.session.save()
+[Mon Dec 18 00:25:42.030840 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 79, in save
+[Mon Dec 18 00:25:42.030847 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     return self.create()
+[Mon Dec 18 00:25:42.030853 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 53, in create
+[Mon Dec 18 00:25:42.030860 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     self.save(must_create=True)
+[Mon Dec 18 00:25:42.030866 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 85, in save
+[Mon Dec 18 00:25:42.030873 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     obj.save(force_insert=must_create, force_update=not must_create, using=using)
+[Mon Dec 18 00:25:42.030880 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/db/models/base.py", line 729, in save
+[Mon Dec 18 00:25:42.030887 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     force_update=force_update, update_fields=update_fields)
+[Mon Dec 18 00:25:42.030893 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/db/models/base.py", line 759, in save_base
+[Mon Dec 18 00:25:42.030900 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+[Mon Dec 18 00:25:42.030907 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/db/models/base.py", line 842, in _save_table
+[Mon Dec 18 00:25:42.030913 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+[Mon Dec 18 00:25:42.030920 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/db/models/base.py", line 880, in _do_insert
+[Mon Dec 18 00:25:42.030927 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     using=using, raw=raw)
+[Mon Dec 18 00:25:42.030933 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/db/models/manager.py", line 82, in manager_method
+[Mon Dec 18 00:25:42.030940 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     return getattr(self.get_queryset(), name)(*args, **kwargs)
+[Mon Dec 18 00:25:42.030947 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/db/models/query.py", line 1128, in _insert
+[Mon Dec 18 00:25:42.030954 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     return query.get_compiler(using=using).execute_sql(return_id)
+[Mon Dec 18 00:25:42.030967 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/db/models/sql/compiler.py", line 1285, in execute_sql
+[Mon Dec 18 00:25:42.030974 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     cursor.execute(sql, params)
+[Mon Dec 18 00:25:42.031002 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/db/backends/utils.py", line 100, in execute
+[Mon Dec 18 00:25:42.031010 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     return super().execute(sql, params)
+[Mon Dec 18 00:25:42.031017 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/db/backends/utils.py", line 68, in execute
+[Mon Dec 18 00:25:42.031024 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+[Mon Dec 18 00:25:42.031031 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+[Mon Dec 18 00:25:42.031038 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     return executor(sql, params, many, context)
+[Mon Dec 18 00:25:42.031044 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/db/backends/utils.py", line 85, in _execute
+[Mon Dec 18 00:25:42.031051 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     return self.cursor.execute(sql, params)
+[Mon Dec 18 00:25:42.031057 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/db/utils.py", line 89, in __exit__
+[Mon Dec 18 00:25:42.031066 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     raise dj_exc_value.with_traceback(traceback) from exc_value
+[Mon Dec 18 00:25:42.031072 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/db/backends/utils.py", line 85, in _execute
+[Mon Dec 18 00:25:42.031079 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     return self.cursor.execute(sql, params)
+[Mon Dec 18 00:25:42.031085 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]   File "/usr/lib/python3.4/site-packages/django/db/backends/sqlite3/base.py", line 305, in execute
+[Mon Dec 18 00:25:42.031092 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282]     return Database.Cursor.execute(self, query, params)
+[Mon Dec 18 00:25:42.031103 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282] django.db.utils.OperationalError: attempt to write a readonly database
+[Mon Dec 18 00:25:42.031120 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43282] 
+[Mon Dec 18 00:26:50.715457 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298] Redirecionamento para admin
+[Mon Dec 18 00:26:50.719560 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298] Internal Server Error: /
+[Mon Dec 18 00:26:50.719575 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298] Traceback (most recent call last):
+[Mon Dec 18 00:26:50.719580 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/db/backends/utils.py", line 85, in _execute
+[Mon Dec 18 00:26:50.719585 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     return self.cursor.execute(sql, params)
+[Mon Dec 18 00:26:50.719589 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/db/backends/sqlite3/base.py", line 305, in execute
+[Mon Dec 18 00:26:50.719594 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     return Database.Cursor.execute(self, query, params)
+[Mon Dec 18 00:26:50.719598 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298] sqlite3.OperationalError: attempt to write a readonly database
+[Mon Dec 18 00:26:50.719602 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298] 
+[Mon Dec 18 00:26:50.719618 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298] The above exception was the direct cause of the following exception:
+[Mon Dec 18 00:26:50.719623 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298] 
+[Mon Dec 18 00:26:50.719627 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298] Traceback (most recent call last):
+[Mon Dec 18 00:26:50.719631 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+[Mon Dec 18 00:26:50.719635 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     response = get_response(request)
+[Mon Dec 18 00:26:50.719638 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/utils/deprecation.py", line 97, in __call__
+[Mon Dec 18 00:26:50.719642 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     response = self.process_response(request, response)
+[Mon Dec 18 00:26:50.719646 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/contrib/sessions/middleware.py", line 58, in process_response
+[Mon Dec 18 00:26:50.719650 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     request.session.save()
+[Mon Dec 18 00:26:50.719654 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 79, in save
+[Mon Dec 18 00:26:50.719658 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     return self.create()
+[Mon Dec 18 00:26:50.719662 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 53, in create
+[Mon Dec 18 00:26:50.719666 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     self.save(must_create=True)
+[Mon Dec 18 00:26:50.719670 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 85, in save
+[Mon Dec 18 00:26:50.719674 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     obj.save(force_insert=must_create, force_update=not must_create, using=using)
+[Mon Dec 18 00:26:50.719678 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/db/models/base.py", line 729, in save
+[Mon Dec 18 00:26:50.719682 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     force_update=force_update, update_fields=update_fields)
+[Mon Dec 18 00:26:50.719686 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/db/models/base.py", line 759, in save_base
+[Mon Dec 18 00:26:50.719690 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+[Mon Dec 18 00:26:50.719694 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/db/models/base.py", line 842, in _save_table
+[Mon Dec 18 00:26:50.719698 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+[Mon Dec 18 00:26:50.719702 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/db/models/base.py", line 880, in _do_insert
+[Mon Dec 18 00:26:50.719706 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     using=using, raw=raw)
+[Mon Dec 18 00:26:50.719710 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/db/models/manager.py", line 82, in manager_method
+[Mon Dec 18 00:26:50.719714 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     return getattr(self.get_queryset(), name)(*args, **kwargs)
+[Mon Dec 18 00:26:50.719718 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/db/models/query.py", line 1128, in _insert
+[Mon Dec 18 00:26:50.719726 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     return query.get_compiler(using=using).execute_sql(return_id)
+[Mon Dec 18 00:26:50.719730 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/db/models/sql/compiler.py", line 1285, in execute_sql
+[Mon Dec 18 00:26:50.719734 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     cursor.execute(sql, params)
+[Mon Dec 18 00:26:50.719738 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/db/backends/utils.py", line 100, in execute
+[Mon Dec 18 00:26:50.719742 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     return super().execute(sql, params)
+[Mon Dec 18 00:26:50.719746 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/db/backends/utils.py", line 68, in execute
+[Mon Dec 18 00:26:50.719750 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+[Mon Dec 18 00:26:50.719754 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+[Mon Dec 18 00:26:50.719758 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     return executor(sql, params, many, context)
+[Mon Dec 18 00:26:50.719762 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/db/backends/utils.py", line 85, in _execute
+[Mon Dec 18 00:26:50.719766 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     return self.cursor.execute(sql, params)
+[Mon Dec 18 00:26:50.719770 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/db/utils.py", line 89, in __exit__
+[Mon Dec 18 00:26:50.719774 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     raise dj_exc_value.with_traceback(traceback) from exc_value
+[Mon Dec 18 00:26:50.719778 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/db/backends/utils.py", line 85, in _execute
+[Mon Dec 18 00:26:50.719782 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     return self.cursor.execute(sql, params)
+[Mon Dec 18 00:26:50.719785 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]   File "/usr/lib/python3.4/site-packages/django/db/backends/sqlite3/base.py", line 305, in execute
+[Mon Dec 18 00:26:50.719790 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298]     return Database.Cursor.execute(self, query, params)
+[Mon Dec 18 00:26:50.719796 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298] django.db.utils.OperationalError: attempt to write a readonly database
+[Mon Dec 18 00:26:50.719805 2023] [wsgi:error] [pid 3622] [remote 192.168.102.128:43298] 
+[Mon Dec 18 00:28:53.658385 2023] [wsgi:error] [pid 3803] [remote 192.168.102.128:43332] Not Found: /favicon.ico
+[Mon Dec 18 00:29:08.066359 2023] [wsgi:error] [pid 3803] [remote 192.168.102.128:43342] Redirecionamento para admin
+[Mon Dec 18 22:45:31.245418 2023] [wsgi:error] [pid 904] [remote 192.168.102.128:46042] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Mon Dec 18 22:45:32.328387 2023] [wsgi:error] [pid 904] [remote 192.168.102.128:46052] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Mon Dec 18 22:45:32.757949 2023] [wsgi:error] [pid 904] [remote 192.168.102.128:46054] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Mon Dec 18 22:45:32.772070 2023] [wsgi:error] [pid 904] [remote 192.168.102.128:46056] Invalid HTTP_HOST header: '192.168.102.128'. You may need to add '192.168.102.128' to ALLOWED_HOSTS.
+[Mon Dec 18 22:46:38.660733 2023] [wsgi:error] [pid 1076] [remote 192.168.102.128:46076] Redirecionamento para admin
+[Thu Dec 21 00:01:50.299640 2023] [wsgi:error] [pid 2077] [remote 192.168.102.128:52276] Invalid HTTP_HOST header: 'arcoverde.mil'. You may need to add 'arcoverde.mil' to ALLOWED_HOSTS.
+[Fri Dec 22 04:12:40.681642 2023] [wsgi:error] [pid 1713] [remote 192.168.102.128:55200] Not Found: /favicon.ico
+[Fri Dec 22 04:12:42.082680 2023] [wsgi:error] [pid 1713] [remote 192.168.102.128:55200] Not Found: /favicon.ico
+[Fri Dec 22 04:12:42.092159 2023] [wsgi:error] [pid 1713] [remote 192.168.102.128:55210] Not Found: /favicon.ico
+[Fri Dec 22 04:12:56.771608 2023] [wsgi:error] [pid 1713] [remote 192.168.102.128:55214] /usr/lib/python3.4/site-packages/django/db/backends/mysql/base.py:71: Warning: (1265, "Data truncated for column 'senha' at row 1")
+[Fri Dec 22 04:12:56.771653 2023] [wsgi:error] [pid 1713] [remote 192.168.102.128:55214]   return self.cursor.execute(query, args)
+[Fri Dec 22 04:17:41.078467 2023] [wsgi:error] [pid 1932] [remote 192.168.102.128:55294] Not Found: /favicon.ico
+[Fri Dec 22 04:18:01.512170 2023] [wsgi:error] [pid 1932] [remote 192.168.102.128:55310] /usr/lib/python3.4/site-packages/django/db/backends/mysql/base.py:71: Warning: (1265, "Data truncated for column 'senha' at row 1")
+[Fri Dec 22 04:18:01.512202 2023] [wsgi:error] [pid 1932] [remote 192.168.102.128:55310]   return self.cursor.execute(query, args)
+[Fri Dec 22 04:55:02.343105 2023] [wsgi:error] [pid 2590] [remote 192.168.102.128:55876] Not Found: /favicon.ico
+[Fri Dec 22 04:55:18.641203 2023] [wsgi:error] [pid 2590] [remote 192.168.102.128:55888] kalvin@kalvin 123
+[Fri Dec 22 04:55:18.863095 2023] [wsgi:error] [pid 2590] [remote 192.168.102.128:55888] True
+[Fri Dec 22 04:55:18.863150 2023] [wsgi:error] [pid 2590] [remote 192.168.102.128:55888] pbkdf2_sha256$100000$GbNcS2K35XPx$4unEgdGjmo8SxD2snw1jzW+fYNdjjhD6xM7rXYbTrhs= 123
+[Fri Dec 22 04:55:18.863167 2023] [wsgi:error] [pid 2590] [remote 192.168.102.128:55888] verificou senha
+[Fri Dec 22 04:55:18.863224 2023] [wsgi:error] [pid 2590] [remote 192.168.102.128:55888] vai redirecionar
+[Fri Dec 22 04:55:18.863244 2023] [wsgi:error] [pid 2590] [remote 192.168.102.128:55888] Redirecionamento para admin
+[Fri Dec 22 04:57:45.420864 2023] [wsgi:error] [pid 2785] [remote 192.168.102.128:55932] kalvin@kalvin 123
+[Fri Dec 22 04:57:45.672807 2023] [wsgi:error] [pid 2785] [remote 192.168.102.128:55932] True
+[Fri Dec 22 04:57:45.672854 2023] [wsgi:error] [pid 2785] [remote 192.168.102.128:55932] pbkdf2_sha256$100000$GbNcS2K35XPx$4unEgdGjmo8SxD2snw1jzW+fYNdjjhD6xM7rXYbTrhs= 123
+[Fri Dec 22 04:57:45.672866 2023] [wsgi:error] [pid 2785] [remote 192.168.102.128:55932] verificou senha
+[Fri Dec 22 04:57:45.672917 2023] [wsgi:error] [pid 2785] [remote 192.168.102.128:55932] vai redirecionar
+[Fri Dec 22 04:57:45.672934 2023] [wsgi:error] [pid 2785] [remote 192.168.102.128:55932] Redirecionamento para admin
+python3: can't open file '../criar_dominio.py': [Errno 2] No such file or directory
+sh: ../exeroot: No such file or directory
+python3: can't open file '../criar_dominio.py': [Errno 2] No such file or directory
+sh: ../exeroot: No such file or directory
+python3: can't open file '../apagar_dominio.py': [Errno 2] No such file or directory
+sh: ../exeroot: No such file or directory
+python3: can't open file '../apagar_dominio.py': [Errno 2] No such file or directory
+sh: ../exeroot: No such file or directory
+[Tue Dec 26 23:09:20.540479 2023] [wsgi:error] [pid 3406] [remote 192.168.102.128:44816] Not Found: /favicon.ico
+[Tue Dec 26 23:09:22.270766 2023] [wsgi:error] [pid 3406] [remote 192.168.102.128:44816] Not Found: /favicon.ico
+[Tue Dec 26 23:09:23.338652 2023] [wsgi:error] [pid 3406] [remote 192.168.102.128:44816] Not Found: /favicon.ico
+[Tue Dec 26 23:09:23.379882 2023] [wsgi:error] [pid 3406] [remote 192.168.102.128:44816] Not Found: /favicon.ico
+[Tue Dec 26 23:10:02.266430 2023] [wsgi:error] [pid 3406] [remote 192.168.102.128:44822] admin@admin admin
+[Tue Dec 26 23:10:02.499706 2023] [wsgi:error] [pid 3406] [remote 192.168.102.128:44822] False
+[Tue Dec 26 23:10:02.499779 2023] [wsgi:error] [pid 3406] [remote 192.168.102.128:44822] pbkdf2_sha256$100000$4lmOCWYW8v66$xki2Ol1E0i9vh63o31nncclc8uf382ICQNyyWBAc9ko= admin
+[Tue Dec 26 23:10:02.499792 2023] [wsgi:error] [pid 3406] [remote 192.168.102.128:44822] erroa1
+[Tue Dec 26 23:10:56.950078 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64872] Not Found: /favicon.ico
+[Tue Dec 26 23:11:29.469315 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64873] admin@admin 123
+[Tue Dec 26 23:11:29.704290 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64873] True
+[Tue Dec 26 23:11:29.704335 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64873] pbkdf2_sha256$100000$4lmOCWYW8v66$xki2Ol1E0i9vh63o31nncclc8uf382ICQNyyWBAc9ko= 123
+[Tue Dec 26 23:11:29.704347 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64873] verificou senha
+[Tue Dec 26 23:11:29.704393 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64873] vai redirecionar
+[Tue Dec 26 23:11:29.704408 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64873] Redirecionamento para admin
+[Tue Dec 26 23:12:41.107705 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64915] admin@admin 123
+[Tue Dec 26 23:12:41.334318 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64915] True
+[Tue Dec 26 23:12:41.334362 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64915] pbkdf2_sha256$100000$4lmOCWYW8v66$xki2Ol1E0i9vh63o31nncclc8uf382ICQNyyWBAc9ko= 123
+[Tue Dec 26 23:12:41.334374 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64915] verificou senha
+[Tue Dec 26 23:12:41.334420 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64915] vai redirecionar
+[Tue Dec 26 23:12:41.334435 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64915] Redirecionamento para admin
+[Tue Dec 26 23:12:46.335871 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64915] foi bd
+Traceback (most recent call last):
+  File "/projetoasa/src/criar_dominio.py", line 16, in <module>
+    os.makedirs(pasta_destino+"/adm", exist_ok=True)
+  File "/usr/lib64/python3.4/os.py", line 227, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib64/python3.4/os.py", line 237, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/projetoasa/users/dominio1.com'
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 26 23:12:46.524587 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64915] criando
+[Tue Dec 26 23:12:46.524747 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64915] 712241
+[Tue Dec 26 23:12:46.745807 2023] [wsgi:error] [pid 3406] [remote 192.168.103.10:64915] deu bom o admin dominio
+Traceback (most recent call last):
+  File "/projetoasa/src/apagar_dominio.py", line 20, in <module>
+    with open("/etc/httpd/conf/httpd.conf.projeto", "r+") as httpd_file:
+PermissionError: [Errno 13] Permission denied: '/etc/httpd/conf/httpd.conf.projeto'
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 26 23:13:18.747144 2023] [wsgi:error] [pid 3522] [remote 192.168.103.10:64922] apagando admin de dominio
+[Tue Dec 26 23:13:18.751944 2023] [wsgi:error] [pid 3522] [remote 192.168.103.10:64922] usuario nao encontrado... continuando codigo
+[Tue Dec 26 23:13:38.839922 2023] [wsgi:error] [pid 3607] [remote 192.168.103.10:64924] foi bd
+Traceback (most recent call last):
+  File "/projetoasa/src/criar_dominio.py", line 16, in <module>
+    os.makedirs(pasta_destino+"/adm", exist_ok=True)
+  File "/usr/lib64/python3.4/os.py", line 227, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib64/python3.4/os.py", line 237, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/projetoasa/users/dominio1.com'
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 26 23:13:39.019695 2023] [wsgi:error] [pid 3607] [remote 192.168.103.10:64924] criando
+[Tue Dec 26 23:13:39.019901 2023] [wsgi:error] [pid 3607] [remote 192.168.103.10:64924] 437180
+[Tue Dec 26 23:13:39.311527 2023] [wsgi:error] [pid 3607] [remote 192.168.103.10:64924] deu bom o admin dominio
+Traceback (most recent call last):
+  File "/projetoasa/src/apagar_dominio.py", line 20, in <module>
+    with open("/etc/httpd/conf/httpd.conf.projeto", "r+") as httpd_file:
+PermissionError: [Errno 13] Permission denied: '/etc/httpd/conf/httpd.conf.projeto'
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 26 23:13:50.510883 2023] [wsgi:error] [pid 3692] [remote 192.168.103.10:64928] apagando admin de dominio
+[Tue Dec 26 23:13:50.515629 2023] [wsgi:error] [pid 3692] [remote 192.168.103.10:64928] usuario nao encontrado... continuando codigo
+[Tue Dec 26 23:14:48.224583 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64937] admin@admin admin
+[Tue Dec 26 23:14:48.459128 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64937] False
+[Tue Dec 26 23:14:48.459166 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64937] pbkdf2_sha256$100000$4lmOCWYW8v66$xki2Ol1E0i9vh63o31nncclc8uf382ICQNyyWBAc9ko= admin
+[Tue Dec 26 23:14:48.459178 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64937] erroa1
+[Tue Dec 26 23:14:57.077974 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64953] admin@admin 123
+[Tue Dec 26 23:14:57.266347 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64953] True
+[Tue Dec 26 23:14:57.266392 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64953] pbkdf2_sha256$100000$4lmOCWYW8v66$xki2Ol1E0i9vh63o31nncclc8uf382ICQNyyWBAc9ko= 123
+[Tue Dec 26 23:14:57.266404 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64953] verificou senha
+[Tue Dec 26 23:14:57.266450 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64953] vai redirecionar
+[Tue Dec 26 23:14:57.266465 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64953] Redirecionamento para admin
+[Tue Dec 26 23:15:28.649430 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64971] admin@admin 123
+[Tue Dec 26 23:15:28.872652 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64971] True
+[Tue Dec 26 23:15:28.872699 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64971] pbkdf2_sha256$100000$4lmOCWYW8v66$xki2Ol1E0i9vh63o31nncclc8uf382ICQNyyWBAc9ko= 123
+[Tue Dec 26 23:15:28.872711 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64971] verificou senha
+[Tue Dec 26 23:15:28.872757 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64971] vai redirecionar
+[Tue Dec 26 23:15:28.872772 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64971] Redirecionamento para admin
+[Tue Dec 26 23:15:43.079862 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64977] Redirecionamento para admin
+[Tue Dec 26 23:15:52.356428 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64986] Redirecionamento para admin
+[Tue Dec 26 23:16:13.772175 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64997] admin@admin 1234
+[Tue Dec 26 23:16:13.983505 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64997] True
+[Tue Dec 26 23:16:13.983550 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64997] pbkdf2_sha256$100000$nOdyol2zEAtk$kwLP3JZVGXlBT2jQ6KP0elWx6K3B1piGXyGbVRkVQB4= 1234
+[Tue Dec 26 23:16:13.983562 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64997] verificou senha
+[Tue Dec 26 23:16:13.983608 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64997] vai redirecionar
+[Tue Dec 26 23:16:13.983624 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:64997] Redirecionamento para admin
+[Tue Dec 26 23:16:22.055267 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:65005] foi bd
+Traceback (most recent call last):
+  File "/projetoasa/src/criar_dominio.py", line 16, in <module>
+    os.makedirs(pasta_destino+"/adm", exist_ok=True)
+  File "/usr/lib64/python3.4/os.py", line 227, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib64/python3.4/os.py", line 237, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/projetoasa/users/dominio1.com'
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 26 23:16:22.181618 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:65005] criando
+[Tue Dec 26 23:16:22.181730 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:65005] 646964
+[Tue Dec 26 23:16:22.328734 2023] [wsgi:error] [pid 3776] [remote 192.168.103.10:65005] deu bom o admin dominio
+[Tue Dec 26 23:20:25.197313 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65151] Not Found: /favicon.ico
+[Tue Dec 26 23:20:25.433379 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65154] Not Found: /favicon.ico
+[Tue Dec 26 23:20:25.726207 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65156] Not Found: /favicon.ico
+[Tue Dec 26 23:20:33.457706 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65158] admin@admin admin
+[Tue Dec 26 23:20:33.691608 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65158] False
+[Tue Dec 26 23:20:33.691693 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65158] pbkdf2_sha256$100000$nOdyol2zEAtk$kwLP3JZVGXlBT2jQ6KP0elWx6K3B1piGXyGbVRkVQB4= admin
+[Tue Dec 26 23:20:33.691715 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65158] erroa1
+[Tue Dec 26 23:20:39.063175 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65161] admin@admin 1234
+[Tue Dec 26 23:20:39.295984 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65161] True
+[Tue Dec 26 23:20:39.296032 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65161] pbkdf2_sha256$100000$nOdyol2zEAtk$kwLP3JZVGXlBT2jQ6KP0elWx6K3B1piGXyGbVRkVQB4= 1234
+[Tue Dec 26 23:20:39.296045 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65161] verificou senha
+[Tue Dec 26 23:20:39.296092 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65161] vai redirecionar
+[Tue Dec 26 23:20:39.296108 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65161] Redirecionamento para admin
+[Tue Dec 26 23:21:11.298385 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65180] foi bd
+Traceback (most recent call last):
+  File "/projetoasa/src/criar_dominio.py", line 16, in <module>
+    os.makedirs(pasta_destino+"/adm", exist_ok=True)
+  File "/usr/lib64/python3.4/os.py", line 227, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib64/python3.4/os.py", line 237, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/projetoasa/users/dominio1.com'
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 26 23:21:11.474929 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65180] criando
+[Tue Dec 26 23:21:11.475095 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65180] 717957
+[Tue Dec 26 23:21:11.717774 2023] [wsgi:error] [pid 3862] [remote 192.168.103.10:65180] deu bom o admin dominio
+[Tue Dec 26 23:27:59.437826 2023] [wsgi:error] [pid 3965] [remote 192.168.102.128:45004] Not Found: /favicon.ico
+[Tue Dec 26 23:28:01.248162 2023] [wsgi:error] [pid 3965] [remote 192.168.102.128:45004] Not Found: /favicon.ico
+[Tue Dec 26 23:28:03.173153 2023] [wsgi:error] [pid 3965] [remote 192.168.102.128:45004] Not Found: /favicon.ico
+[Tue Dec 26 23:28:03.217430 2023] [wsgi:error] [pid 3965] [remote 192.168.102.128:45004] Not Found: /favicon.ico
+[Tue Dec 26 23:28:19.051876 2023] [wsgi:error] [pid 3965] [remote 192.168.102.128:45006] admin@admin 1234
+[Tue Dec 26 23:28:19.248590 2023] [wsgi:error] [pid 3965] [remote 192.168.102.128:45006] True
+[Tue Dec 26 23:28:19.248635 2023] [wsgi:error] [pid 3965] [remote 192.168.102.128:45006] pbkdf2_sha256$100000$nOdyol2zEAtk$kwLP3JZVGXlBT2jQ6KP0elWx6K3B1piGXyGbVRkVQB4= 1234
+[Tue Dec 26 23:28:19.248648 2023] [wsgi:error] [pid 3965] [remote 192.168.102.128:45006] verificou senha
+[Tue Dec 26 23:28:19.248694 2023] [wsgi:error] [pid 3965] [remote 192.168.102.128:45006] vai redirecionar
+[Tue Dec 26 23:28:19.248723 2023] [wsgi:error] [pid 3965] [remote 192.168.102.128:45006] Redirecionamento para admin
+[Tue Dec 26 23:29:30.375880 2023] [wsgi:error] [pid 3965] [remote 192.168.102.128:45020] foi bd
+Traceback (most recent call last):
+  File "/projetoasa/src/criar_dominio.py", line 16, in <module>
+    os.makedirs(pasta_destino+"/adm", exist_ok=True)
+  File "/usr/lib64/python3.4/os.py", line 227, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib64/python3.4/os.py", line 237, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/projetoasa/users/dominio1.com'
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 26 23:29:30.571329 2023] [wsgi:error] [pid 3965] [remote 192.168.102.128:45020] criando
+[Tue Dec 26 23:29:30.571503 2023] [wsgi:error] [pid 3965] [remote 192.168.102.128:45020] 977798
+[Tue Dec 26 23:29:30.764177 2023] [wsgi:error] [pid 3965] [remote 192.168.102.128:45020] deu bom o admin dominio
+[Tue Dec 26 23:30:07.226144 2023] [wsgi:error] [pid 4168] [remote 192.168.102.128:45030] Not Found: /favicon.ico
+[Wed Dec 27 00:07:31.316579 2023] [wsgi:error] [pid 982] [remote 192.168.102.128:45324] Forbidden (CSRF cookie not set.): /cadastrar/
+[Wed Dec 27 00:12:11.746652 2023] [wsgi:error] [pid 1068] [remote 192.168.102.128:45350] Not Found: /favicon.ico
+[Wed Dec 27 00:12:16.529093 2023] [wsgi:error] [pid 1068] [remote 192.168.102.128:45350] Not Found: /favicon.ico
+[Wed Dec 27 00:12:18.091434 2023] [wsgi:error] [pid 1068] [remote 192.168.102.128:45350] Not Found: /favicon.ico
+[Wed Dec 27 00:12:18.134083 2023] [wsgi:error] [pid 1068] [remote 192.168.102.128:45350] Not Found: /favicon.ico
+[Wed Dec 27 00:13:21.033706 2023] [wsgi:error] [pid 1068] [remote 192.168.102.128:45368] admin@admin admin
+[Wed Dec 27 00:13:21.033768 2023] [wsgi:error] [pid 1068] [remote 192.168.102.128:45368] criando user
+[Wed Dec 27 00:15:34.116834 2023] [wsgi:error] [pid 1068] [remote 192.168.102.128:45410] admin@admin admin
+[Wed Dec 27 00:15:34.348906 2023] [wsgi:error] [pid 1068] [remote 192.168.102.128:45410] True
+[Wed Dec 27 00:15:34.348969 2023] [wsgi:error] [pid 1068] [remote 192.168.102.128:45410] pbkdf2_sha256$100000$BtHHlFBHzDzc$eL0oMULwvVvUvsj4aJnHOBbsdygIUw3XONyYoifbUnU= admin
+[Wed Dec 27 00:15:34.348989 2023] [wsgi:error] [pid 1068] [remote 192.168.102.128:45410] verificou senha
+[Wed Dec 27 00:15:34.349052 2023] [wsgi:error] [pid 1068] [remote 192.168.102.128:45410] vai redirecionar
+[Wed Dec 27 00:15:34.349076 2023] [wsgi:error] [pid 1068] [remote 192.168.102.128:45410] Redirecionamento para admin
+[Wed Dec 27 00:16:15.242456 2023] [wsgi:error] [pid 1068] [remote 192.168.102.128:45428] foi bd
+Traceback (most recent call last):
+  File "/projetoasa/src/criar_dominio.py", line 35, in <module>
+    with open("/etc/named.conf.projeto", "a") as file:
+PermissionError: [Errno 13] Permission denied: '/etc/named.conf.projeto'
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 00:16:15.419141 2023] [wsgi:error] [pid 1068] [remote 192.168.102.128:45428] criando
+[Wed Dec 27 00:16:15.419305 2023] [wsgi:error] [pid 1068] [remote 192.168.102.128:45428] 985902
+[Wed Dec 27 00:16:15.614235 2023] [wsgi:error] [pid 1068] [remote 192.168.102.128:45428] deu bom o admin dominio
+[Wed Dec 27 00:26:28.088865 2023] [wsgi:error] [pid 1357] [remote 192.168.102.128:45504] Not Found: /favicon.ico
+[Wed Dec 27 00:33:27.428131 2023] [wsgi:error] [pid 1357] [remote 192.168.102.128:45566] admin@admin admin
+[Wed Dec 27 00:33:27.428196 2023] [wsgi:error] [pid 1357] [remote 192.168.102.128:45566] criando user
+[Wed Dec 27 00:34:15.508154 2023] [wsgi:error] [pid 1357] [remote 192.168.102.128:45578] admin@admin admin
+[Wed Dec 27 00:34:15.710431 2023] [wsgi:error] [pid 1357] [remote 192.168.102.128:45578] True
+[Wed Dec 27 00:34:15.710480 2023] [wsgi:error] [pid 1357] [remote 192.168.102.128:45578] pbkdf2_sha256$100000$pmD3xziFRNVV$JFgLJWbI5XJ6x+/jCVkFAHofZvmVR07Obon/NHtAiDw= admin
+[Wed Dec 27 00:34:15.710510 2023] [wsgi:error] [pid 1357] [remote 192.168.102.128:45578] verificou senha
+[Wed Dec 27 00:34:15.710558 2023] [wsgi:error] [pid 1357] [remote 192.168.102.128:45578] vai redirecionar
+[Wed Dec 27 00:34:15.710574 2023] [wsgi:error] [pid 1357] [remote 192.168.102.128:45578] Redirecionamento para admin
+[Wed Dec 27 00:35:08.586917 2023] [wsgi:error] [pid 1357] [remote 192.168.102.128:45596] foi bd
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 00:35:08.754381 2023] [wsgi:error] [pid 1357] [remote 192.168.102.128:45596] criando
+[Wed Dec 27 00:35:08.754536 2023] [wsgi:error] [pid 1357] [remote 192.168.102.128:45596] 172967
+[Wed Dec 27 00:35:08.958710 2023] [wsgi:error] [pid 1357] [remote 192.168.102.128:45596] deu bom o admin dominio
+[Wed Dec 27 00:47:05.558805 2023] [wsgi:error] [pid 1682] [remote 192.168.102.128:45666] admin@admin admin
+[Wed Dec 27 00:47:05.750225 2023] [wsgi:error] [pid 1682] [remote 192.168.102.128:45666] True
+[Wed Dec 27 00:47:05.750288 2023] [wsgi:error] [pid 1682] [remote 192.168.102.128:45666] pbkdf2_sha256$100000$pmD3xziFRNVV$JFgLJWbI5XJ6x+/jCVkFAHofZvmVR07Obon/NHtAiDw= admin
+[Wed Dec 27 00:47:05.750308 2023] [wsgi:error] [pid 1682] [remote 192.168.102.128:45666] verificou senha
+[Wed Dec 27 00:47:05.750372 2023] [wsgi:error] [pid 1682] [remote 192.168.102.128:45666] vai redirecionar
+[Wed Dec 27 00:47:05.750397 2023] [wsgi:error] [pid 1682] [remote 192.168.102.128:45666] Redirecionamento para admin
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 00:47:36.072900 2023] [wsgi:error] [pid 1682] [remote 192.168.102.128:45674] apagando admin de dominio
+[Wed Dec 27 00:47:36.077571 2023] [wsgi:error] [pid 1682] [remote 192.168.102.128:45674] usuario nao encontrado... continuando codigo
+[Wed Dec 27 00:48:46.483646 2023] [wsgi:error] [pid 1784] [remote 192.168.102.128:45690] foi bd
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 00:48:46.649474 2023] [wsgi:error] [pid 1784] [remote 192.168.102.128:45690] criando
+[Wed Dec 27 00:48:46.649612 2023] [wsgi:error] [pid 1784] [remote 192.168.102.128:45690] 548362
+[Wed Dec 27 00:48:46.837756 2023] [wsgi:error] [pid 1784] [remote 192.168.102.128:45690] deu bom o admin dominio
+[Wed Dec 27 00:56:52.082509 2023] [wsgi:error] [pid 1879] [remote 192.168.102.128:45714] Not Found: /favicon.ico
+[Wed Dec 27 00:58:47.366064 2023] [wsgi:error] [pid 1879] [remote 192.168.102.128:45736] foi bd
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 00:58:47.533125 2023] [wsgi:error] [pid 1879] [remote 192.168.102.128:45736] criando
+[Wed Dec 27 00:58:47.533274 2023] [wsgi:error] [pid 1879] [remote 192.168.102.128:45736] 796271
+[Wed Dec 27 00:58:47.768915 2023] [wsgi:error] [pid 1879] [remote 192.168.102.128:45736] deu bom o admin dominio
+[Wed Dec 27 00:58:47.768958 2023] [wsgi:error] [pid 1879] [remote 192.168.102.128:45736] debug3
+[Wed Dec 27 01:07:30.056704 2023] [wsgi:error] [pid 1996] [remote 192.168.102.128:45768] Not Found: /favicon.ico
+[Wed Dec 27 01:09:14.591186 2023] [wsgi:error] [pid 1996] [remote 192.168.102.128:45780] foi bd
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 01:09:14.760296 2023] [wsgi:error] [pid 1996] [remote 192.168.102.128:45780] criando
+[Wed Dec 27 01:09:14.760492 2023] [wsgi:error] [pid 1996] [remote 192.168.102.128:45780] 541549
+[Wed Dec 27 01:09:15.056581 2023] [wsgi:error] [pid 1996] [remote 192.168.102.128:45780] deu bom o admin dominio
+[Wed Dec 27 01:09:15.056648 2023] [wsgi:error] [pid 1996] [remote 192.168.102.128:45780] debug2
+[Wed Dec 27 01:09:15.056667 2023] [wsgi:error] [pid 1996] [remote 192.168.102.128:45780] debug1
+[Wed Dec 27 01:22:33.793543 2023] [wsgi:error] [pid 2129] [remote 192.168.102.128:45838] foi bd
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 01:22:33.968423 2023] [wsgi:error] [pid 2129] [remote 192.168.102.128:45838] criando
+[Wed Dec 27 01:22:33.968546 2023] [wsgi:error] [pid 2129] [remote 192.168.102.128:45838] 453247
+[Wed Dec 27 01:22:34.174587 2023] [wsgi:error] [pid 2129] [remote 192.168.102.128:45838] deu bom o admin dominio
+[Wed Dec 27 01:22:34.174621 2023] [wsgi:error] [pid 2129] [remote 192.168.102.128:45838] debug2
+[Wed Dec 27 01:22:34.174632 2023] [wsgi:error] [pid 2129] [remote 192.168.102.128:45838] debug1
+[Wed Dec 27 01:30:11.688820 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] mod_wsgi (pid=2325): Exception occurred processing WSGI script '/projetoasa/src/pyhosting/wsgi.py'.
+[Wed Dec 27 01:30:11.688931 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] Traceback (most recent call last):
+[Wed Dec 27 01:30:11.689172 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+[Wed Dec 27 01:30:11.689186 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = get_response(request)
+[Wed Dec 27 01:30:11.689379 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/base.py", line 113, in _get_response
+[Wed Dec 27 01:30:11.689392 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     resolver_match = resolver.resolve(request.path_info)
+[Wed Dec 27 01:30:11.689691 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 498, in resolve
+[Wed Dec 27 01:30:11.689704 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     for pattern in self.url_patterns:
+[Wed Dec 27 01:30:11.689945 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 36, in __get__
+[Wed Dec 27 01:30:11.689958 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 27 01:30:11.690006 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+[Wed Dec 27 01:30:11.690017 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Wed Dec 27 01:30:11.690059 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 36, in __get__
+[Wed Dec 27 01:30:11.690069 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 27 01:30:11.690109 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+[Wed Dec 27 01:30:11.690119 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return import_module(self.urlconf_name)
+[Wed Dec 27 01:30:11.690305 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib64/python3.4/importlib/__init__.py", line 109, in import_module
+[Wed Dec 27 01:30:11.690318 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 27 01:30:11.690347 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2254, in _gcd_import
+[Wed Dec 27 01:30:11.690389 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load
+[Wed Dec 27 01:30:11.690418 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked
+[Wed Dec 27 01:30:11.690445 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+[Wed Dec 27 01:30:11.690472 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1129, in _exec
+[Wed Dec 27 01:30:11.690499 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1471, in exec_module
+[Wed Dec 27 01:30:11.690526 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+[Wed Dec 27 01:30:11.690680 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/pyhosting/urls.py", line 3, in <module>
+[Wed Dec 27 01:30:11.690693 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     from apphosting import views
+[Wed Dec 27 01:30:11.690725 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/apphosting/views.py", line 259
+[Wed Dec 27 01:30:11.690746 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     @login_admindominio
+[Wed Dec 27 01:30:11.690773 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     ^
+[Wed Dec 27 01:30:11.690791 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] SyntaxError: invalid syntax
+[Wed Dec 27 01:30:11.690811 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] 
+[Wed Dec 27 01:30:11.690817 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] During handling of the above exception, another exception occurred:
+[Wed Dec 27 01:30:11.690821 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] 
+[Wed Dec 27 01:30:11.690836 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] Traceback (most recent call last):
+[Wed Dec 27 01:30:11.690888 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+[Wed Dec 27 01:30:11.690899 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = get_response(request)
+[Wed Dec 27 01:30:11.691095 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/deprecation.py", line 95, in __call__
+[Wed Dec 27 01:30:11.691114 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = self.get_response(request)
+[Wed Dec 27 01:30:11.691184 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 37, in inner
+[Wed Dec 27 01:30:11.691197 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = response_for_exception(request, exc)
+[Wed Dec 27 01:30:11.691240 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 87, in response_for_exception
+[Wed Dec 27 01:30:11.691250 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+[Wed Dec 27 01:30:11.691290 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+[Wed Dec 27 01:30:11.691300 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     callback, param_dict = resolver.resolve_error_handler(500)
+[Wed Dec 27 01:30:11.691340 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 553, in resolve_error_handler
+[Wed Dec 27 01:30:11.691350 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+[Wed Dec 27 01:30:11.691401 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 36, in __get__
+[Wed Dec 27 01:30:11.691412 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 27 01:30:11.691452 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+[Wed Dec 27 01:30:11.691462 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return import_module(self.urlconf_name)
+[Wed Dec 27 01:30:11.691502 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib64/python3.4/importlib/__init__.py", line 109, in import_module
+[Wed Dec 27 01:30:11.691511 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 27 01:30:11.691537 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2254, in _gcd_import
+[Wed Dec 27 01:30:11.691564 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load
+[Wed Dec 27 01:30:11.691590 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked
+[Wed Dec 27 01:30:11.691617 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+[Wed Dec 27 01:30:11.691643 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1129, in _exec
+[Wed Dec 27 01:30:11.691669 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1471, in exec_module
+[Wed Dec 27 01:30:11.691695 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+[Wed Dec 27 01:30:11.691738 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/pyhosting/urls.py", line 3, in <module>
+[Wed Dec 27 01:30:11.691748 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     from apphosting import views
+[Wed Dec 27 01:30:11.691774 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/apphosting/views.py", line 259
+[Wed Dec 27 01:30:11.691793 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     @login_admindominio
+[Wed Dec 27 01:30:11.691819 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     ^
+[Wed Dec 27 01:30:11.691837 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] SyntaxError: invalid syntax
+[Wed Dec 27 01:30:11.691857 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] 
+[Wed Dec 27 01:30:11.691863 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] During handling of the above exception, another exception occurred:
+[Wed Dec 27 01:30:11.691867 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] 
+[Wed Dec 27 01:30:11.691881 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] Traceback (most recent call last):
+[Wed Dec 27 01:30:11.691932 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+[Wed Dec 27 01:30:11.691942 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = get_response(request)
+[Wed Dec 27 01:30:11.691982 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/deprecation.py", line 95, in __call__
+[Wed Dec 27 01:30:11.691992 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = self.get_response(request)
+[Wed Dec 27 01:30:11.692032 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 37, in inner
+[Wed Dec 27 01:30:11.692048 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = response_for_exception(request, exc)
+[Wed Dec 27 01:30:11.692100 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 87, in response_for_exception
+[Wed Dec 27 01:30:11.692111 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+[Wed Dec 27 01:30:11.692151 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+[Wed Dec 27 01:30:11.692161 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     callback, param_dict = resolver.resolve_error_handler(500)
+[Wed Dec 27 01:30:11.692201 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 553, in resolve_error_handler
+[Wed Dec 27 01:30:11.692212 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+[Wed Dec 27 01:30:11.692252 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 36, in __get__
+[Wed Dec 27 01:30:11.692262 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 27 01:30:11.692301 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+[Wed Dec 27 01:30:11.692311 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return import_module(self.urlconf_name)
+[Wed Dec 27 01:30:11.692349 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib64/python3.4/importlib/__init__.py", line 109, in import_module
+[Wed Dec 27 01:30:11.692359 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 27 01:30:11.692384 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2254, in _gcd_import
+[Wed Dec 27 01:30:11.692411 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load
+[Wed Dec 27 01:30:11.692437 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked
+[Wed Dec 27 01:30:11.692464 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+[Wed Dec 27 01:30:11.692490 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1129, in _exec
+[Wed Dec 27 01:30:11.692516 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1471, in exec_module
+[Wed Dec 27 01:30:11.692542 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+[Wed Dec 27 01:30:11.692586 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/pyhosting/urls.py", line 3, in <module>
+[Wed Dec 27 01:30:11.692595 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     from apphosting import views
+[Wed Dec 27 01:30:11.692621 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/apphosting/views.py", line 259
+[Wed Dec 27 01:30:11.692640 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     @login_admindominio
+[Wed Dec 27 01:30:11.692665 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     ^
+[Wed Dec 27 01:30:11.692682 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] SyntaxError: invalid syntax
+[Wed Dec 27 01:30:11.692726 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] 
+[Wed Dec 27 01:30:11.692735 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] During handling of the above exception, another exception occurred:
+[Wed Dec 27 01:30:11.692739 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] 
+[Wed Dec 27 01:30:11.692753 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] Traceback (most recent call last):
+[Wed Dec 27 01:30:11.692806 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+[Wed Dec 27 01:30:11.692816 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = get_response(request)
+[Wed Dec 27 01:30:11.692857 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/deprecation.py", line 95, in __call__
+[Wed Dec 27 01:30:11.692866 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = self.get_response(request)
+[Wed Dec 27 01:30:11.692906 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 37, in inner
+[Wed Dec 27 01:30:11.692915 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = response_for_exception(request, exc)
+[Wed Dec 27 01:30:11.692954 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 87, in response_for_exception
+[Wed Dec 27 01:30:11.692964 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+[Wed Dec 27 01:30:11.693003 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+[Wed Dec 27 01:30:11.693013 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     callback, param_dict = resolver.resolve_error_handler(500)
+[Wed Dec 27 01:30:11.693052 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 553, in resolve_error_handler
+[Wed Dec 27 01:30:11.693062 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+[Wed Dec 27 01:30:11.693101 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 36, in __get__
+[Wed Dec 27 01:30:11.693111 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 27 01:30:11.693150 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+[Wed Dec 27 01:30:11.693159 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return import_module(self.urlconf_name)
+[Wed Dec 27 01:30:11.693199 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib64/python3.4/importlib/__init__.py", line 109, in import_module
+[Wed Dec 27 01:30:11.693208 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 27 01:30:11.693233 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2254, in _gcd_import
+[Wed Dec 27 01:30:11.693260 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load
+[Wed Dec 27 01:30:11.693287 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked
+[Wed Dec 27 01:30:11.693313 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+[Wed Dec 27 01:30:11.693348 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1129, in _exec
+[Wed Dec 27 01:30:11.693375 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1471, in exec_module
+[Wed Dec 27 01:30:11.693402 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+[Wed Dec 27 01:30:11.693446 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/pyhosting/urls.py", line 3, in <module>
+[Wed Dec 27 01:30:11.693455 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     from apphosting import views
+[Wed Dec 27 01:30:11.693481 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/apphosting/views.py", line 259
+[Wed Dec 27 01:30:11.693500 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     @login_admindominio
+[Wed Dec 27 01:30:11.693525 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     ^
+[Wed Dec 27 01:30:11.693543 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] SyntaxError: invalid syntax
+[Wed Dec 27 01:30:11.693562 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] 
+[Wed Dec 27 01:30:11.693568 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] During handling of the above exception, another exception occurred:
+[Wed Dec 27 01:30:11.693572 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] 
+[Wed Dec 27 01:30:11.693586 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] Traceback (most recent call last):
+[Wed Dec 27 01:30:11.693635 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+[Wed Dec 27 01:30:11.693645 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = get_response(request)
+[Wed Dec 27 01:30:11.693686 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/deprecation.py", line 95, in __call__
+[Wed Dec 27 01:30:11.693695 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = self.get_response(request)
+[Wed Dec 27 01:30:11.693735 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 37, in inner
+[Wed Dec 27 01:30:11.693744 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = response_for_exception(request, exc)
+[Wed Dec 27 01:30:11.693784 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 87, in response_for_exception
+[Wed Dec 27 01:30:11.693793 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+[Wed Dec 27 01:30:11.693833 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+[Wed Dec 27 01:30:11.693843 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     callback, param_dict = resolver.resolve_error_handler(500)
+[Wed Dec 27 01:30:11.693882 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 553, in resolve_error_handler
+[Wed Dec 27 01:30:11.693892 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+[Wed Dec 27 01:30:11.693933 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 36, in __get__
+[Wed Dec 27 01:30:11.693942 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 27 01:30:11.693991 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+[Wed Dec 27 01:30:11.694001 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return import_module(self.urlconf_name)
+[Wed Dec 27 01:30:11.694041 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib64/python3.4/importlib/__init__.py", line 109, in import_module
+[Wed Dec 27 01:30:11.694051 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 27 01:30:11.694077 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2254, in _gcd_import
+[Wed Dec 27 01:30:11.694104 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load
+[Wed Dec 27 01:30:11.694130 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked
+[Wed Dec 27 01:30:11.694156 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+[Wed Dec 27 01:30:11.694183 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1129, in _exec
+[Wed Dec 27 01:30:11.694209 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1471, in exec_module
+[Wed Dec 27 01:30:11.694235 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+[Wed Dec 27 01:30:11.694278 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/pyhosting/urls.py", line 3, in <module>
+[Wed Dec 27 01:30:11.694287 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     from apphosting import views
+[Wed Dec 27 01:30:11.694313 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/apphosting/views.py", line 259
+[Wed Dec 27 01:30:11.694332 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     @login_admindominio
+[Wed Dec 27 01:30:11.694357 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     ^
+[Wed Dec 27 01:30:11.694374 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] SyntaxError: invalid syntax
+[Wed Dec 27 01:30:11.694393 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] 
+[Wed Dec 27 01:30:11.694399 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] During handling of the above exception, another exception occurred:
+[Wed Dec 27 01:30:11.694404 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] 
+[Wed Dec 27 01:30:11.694417 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] Traceback (most recent call last):
+[Wed Dec 27 01:30:11.694467 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+[Wed Dec 27 01:30:11.694477 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = get_response(request)
+[Wed Dec 27 01:30:11.694517 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/deprecation.py", line 95, in __call__
+[Wed Dec 27 01:30:11.694526 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = self.get_response(request)
+[Wed Dec 27 01:30:11.694566 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 37, in inner
+[Wed Dec 27 01:30:11.694575 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = response_for_exception(request, exc)
+[Wed Dec 27 01:30:11.694614 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 87, in response_for_exception
+[Wed Dec 27 01:30:11.694630 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+[Wed Dec 27 01:30:11.694673 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+[Wed Dec 27 01:30:11.694683 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     callback, param_dict = resolver.resolve_error_handler(500)
+[Wed Dec 27 01:30:11.694724 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 553, in resolve_error_handler
+[Wed Dec 27 01:30:11.694733 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+[Wed Dec 27 01:30:11.694773 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 36, in __get__
+[Wed Dec 27 01:30:11.694783 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 27 01:30:11.694822 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+[Wed Dec 27 01:30:11.694832 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return import_module(self.urlconf_name)
+[Wed Dec 27 01:30:11.694871 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib64/python3.4/importlib/__init__.py", line 109, in import_module
+[Wed Dec 27 01:30:11.694880 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 27 01:30:11.694905 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2254, in _gcd_import
+[Wed Dec 27 01:30:11.694933 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load
+[Wed Dec 27 01:30:11.694959 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked
+[Wed Dec 27 01:30:11.695003 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+[Wed Dec 27 01:30:11.695036 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1129, in _exec
+[Wed Dec 27 01:30:11.695070 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1471, in exec_module
+[Wed Dec 27 01:30:11.695099 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+[Wed Dec 27 01:30:11.695145 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/pyhosting/urls.py", line 3, in <module>
+[Wed Dec 27 01:30:11.695154 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     from apphosting import views
+[Wed Dec 27 01:30:11.695180 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/apphosting/views.py", line 259
+[Wed Dec 27 01:30:11.695199 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     @login_admindominio
+[Wed Dec 27 01:30:11.695224 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     ^
+[Wed Dec 27 01:30:11.695242 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] SyntaxError: invalid syntax
+[Wed Dec 27 01:30:11.695260 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] 
+[Wed Dec 27 01:30:11.695267 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] During handling of the above exception, another exception occurred:
+[Wed Dec 27 01:30:11.695271 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] 
+[Wed Dec 27 01:30:11.695293 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] Traceback (most recent call last):
+[Wed Dec 27 01:30:11.695345 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+[Wed Dec 27 01:30:11.695355 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = get_response(request)
+[Wed Dec 27 01:30:11.695395 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/deprecation.py", line 95, in __call__
+[Wed Dec 27 01:30:11.695405 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = self.get_response(request)
+[Wed Dec 27 01:30:11.695444 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 37, in inner
+[Wed Dec 27 01:30:11.695454 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = response_for_exception(request, exc)
+[Wed Dec 27 01:30:11.695493 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 87, in response_for_exception
+[Wed Dec 27 01:30:11.695502 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+[Wed Dec 27 01:30:11.695542 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+[Wed Dec 27 01:30:11.695551 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     callback, param_dict = resolver.resolve_error_handler(500)
+[Wed Dec 27 01:30:11.695591 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 553, in resolve_error_handler
+[Wed Dec 27 01:30:11.695601 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+[Wed Dec 27 01:30:11.695641 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 36, in __get__
+[Wed Dec 27 01:30:11.695650 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 27 01:30:11.695689 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+[Wed Dec 27 01:30:11.695698 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return import_module(self.urlconf_name)
+[Wed Dec 27 01:30:11.695737 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib64/python3.4/importlib/__init__.py", line 109, in import_module
+[Wed Dec 27 01:30:11.695746 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 27 01:30:11.695772 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2254, in _gcd_import
+[Wed Dec 27 01:30:11.695799 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load
+[Wed Dec 27 01:30:11.695825 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked
+[Wed Dec 27 01:30:11.695852 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+[Wed Dec 27 01:30:11.695878 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1129, in _exec
+[Wed Dec 27 01:30:11.695904 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1471, in exec_module
+[Wed Dec 27 01:30:11.695941 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+[Wed Dec 27 01:30:11.695985 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/pyhosting/urls.py", line 3, in <module>
+[Wed Dec 27 01:30:11.695995 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     from apphosting import views
+[Wed Dec 27 01:30:11.696021 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/apphosting/views.py", line 259
+[Wed Dec 27 01:30:11.696041 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     @login_admindominio
+[Wed Dec 27 01:30:11.696072 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     ^
+[Wed Dec 27 01:30:11.696101 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] SyntaxError: invalid syntax
+[Wed Dec 27 01:30:11.696122 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] 
+[Wed Dec 27 01:30:11.696129 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] During handling of the above exception, another exception occurred:
+[Wed Dec 27 01:30:11.696133 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] 
+[Wed Dec 27 01:30:11.696147 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] Traceback (most recent call last):
+[Wed Dec 27 01:30:11.696199 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+[Wed Dec 27 01:30:11.696210 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = get_response(request)
+[Wed Dec 27 01:30:11.696251 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/deprecation.py", line 95, in __call__
+[Wed Dec 27 01:30:11.696261 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = self.get_response(request)
+[Wed Dec 27 01:30:11.696300 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 37, in inner
+[Wed Dec 27 01:30:11.696310 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = response_for_exception(request, exc)
+[Wed Dec 27 01:30:11.696349 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 87, in response_for_exception
+[Wed Dec 27 01:30:11.696359 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+[Wed Dec 27 01:30:11.696399 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+[Wed Dec 27 01:30:11.696408 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     callback, param_dict = resolver.resolve_error_handler(500)
+[Wed Dec 27 01:30:11.696448 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 553, in resolve_error_handler
+[Wed Dec 27 01:30:11.696458 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+[Wed Dec 27 01:30:11.696498 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 36, in __get__
+[Wed Dec 27 01:30:11.696507 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 27 01:30:11.696547 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+[Wed Dec 27 01:30:11.696556 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return import_module(self.urlconf_name)
+[Wed Dec 27 01:30:11.696595 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib64/python3.4/importlib/__init__.py", line 109, in import_module
+[Wed Dec 27 01:30:11.696611 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 27 01:30:11.696639 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2254, in _gcd_import
+[Wed Dec 27 01:30:11.696667 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load
+[Wed Dec 27 01:30:11.696693 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked
+[Wed Dec 27 01:30:11.696719 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+[Wed Dec 27 01:30:11.696745 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1129, in _exec
+[Wed Dec 27 01:30:11.696771 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1471, in exec_module
+[Wed Dec 27 01:30:11.696797 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+[Wed Dec 27 01:30:11.696841 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/pyhosting/urls.py", line 3, in <module>
+[Wed Dec 27 01:30:11.696851 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     from apphosting import views
+[Wed Dec 27 01:30:11.696876 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/apphosting/views.py", line 259
+[Wed Dec 27 01:30:11.696896 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     @login_admindominio
+[Wed Dec 27 01:30:11.696921 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     ^
+[Wed Dec 27 01:30:11.696938 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] SyntaxError: invalid syntax
+[Wed Dec 27 01:30:11.696957 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] 
+[Wed Dec 27 01:30:11.696964 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] During handling of the above exception, another exception occurred:
+[Wed Dec 27 01:30:11.696968 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] 
+[Wed Dec 27 01:30:11.696981 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] Traceback (most recent call last):
+[Wed Dec 27 01:30:11.762817 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/wsgi.py", line 146, in __call__
+[Wed Dec 27 01:30:11.762842 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = self.get_response(request)
+[Wed Dec 27 01:30:11.762910 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/base.py", line 81, in get_response
+[Wed Dec 27 01:30:11.762922 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = self._middleware_chain(request)
+[Wed Dec 27 01:30:11.762974 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 37, in inner
+[Wed Dec 27 01:30:11.763010 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = response_for_exception(request, exc)
+[Wed Dec 27 01:30:11.763068 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 87, in response_for_exception
+[Wed Dec 27 01:30:11.763081 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+[Wed Dec 27 01:30:11.763130 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+[Wed Dec 27 01:30:11.763153 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     callback, param_dict = resolver.resolve_error_handler(500)
+[Wed Dec 27 01:30:11.763208 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 553, in resolve_error_handler
+[Wed Dec 27 01:30:11.763220 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+[Wed Dec 27 01:30:11.763271 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 36, in __get__
+[Wed Dec 27 01:30:11.763283 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 27 01:30:11.763330 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+[Wed Dec 27 01:30:11.763342 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return import_module(self.urlconf_name)
+[Wed Dec 27 01:30:11.763392 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/usr/lib64/python3.4/importlib/__init__.py", line 109, in import_module
+[Wed Dec 27 01:30:11.763403 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 27 01:30:11.763434 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2254, in _gcd_import
+[Wed Dec 27 01:30:11.763467 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load
+[Wed Dec 27 01:30:11.763499 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked
+[Wed Dec 27 01:30:11.763531 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+[Wed Dec 27 01:30:11.763562 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1129, in _exec
+[Wed Dec 27 01:30:11.763593 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 1471, in exec_module
+[Wed Dec 27 01:30:11.763624 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+[Wed Dec 27 01:30:11.763678 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/pyhosting/urls.py", line 3, in <module>
+[Wed Dec 27 01:30:11.763689 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     from apphosting import views
+[Wed Dec 27 01:30:11.763723 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]   File "/projetoasa/src/apphosting/views.py", line 259
+[Wed Dec 27 01:30:11.763747 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     @login_admindominio
+[Wed Dec 27 01:30:11.763779 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860]     ^
+[Wed Dec 27 01:30:11.763801 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45860] SyntaxError: invalid syntax
+[Wed Dec 27 01:30:14.365854 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] mod_wsgi (pid=2325): Exception occurred processing WSGI script '/projetoasa/src/pyhosting/wsgi.py'.
+[Wed Dec 27 01:30:14.365975 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] Traceback (most recent call last):
+[Wed Dec 27 01:30:14.366093 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+[Wed Dec 27 01:30:14.366110 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     response = get_response(request)
+[Wed Dec 27 01:30:14.366179 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/utils/deprecation.py", line 93, in __call__
+[Wed Dec 27 01:30:14.366208 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     response = self.process_request(request)
+[Wed Dec 27 01:30:14.366556 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/middleware/common.py", line 61, in process_request
+[Wed Dec 27 01:30:14.366575 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     if self.should_redirect_with_slash(request):
+[Wed Dec 27 01:30:14.366647 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/middleware/common.py", line 79, in should_redirect_with_slash
+[Wed Dec 27 01:30:14.366663 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     not is_valid_path(request.path_info, urlconf) and
+[Wed Dec 27 01:30:14.366956 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/urls/base.py", line 157, in is_valid_path
+[Wed Dec 27 01:30:14.366975 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     resolve(path, urlconf)
+[Wed Dec 27 01:30:14.367072 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/urls/base.py", line 24, in resolve
+[Wed Dec 27 01:30:14.367090 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     return get_resolver(urlconf).resolve(path)
+[Wed Dec 27 01:30:14.367159 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 498, in resolve
+[Wed Dec 27 01:30:14.367169 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     for pattern in self.url_patterns:
+[Wed Dec 27 01:30:14.367212 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 36, in __get__
+[Wed Dec 27 01:30:14.367222 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 27 01:30:14.367263 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+[Wed Dec 27 01:30:14.367273 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Wed Dec 27 01:30:14.367313 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 36, in __get__
+[Wed Dec 27 01:30:14.367323 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 27 01:30:14.367363 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+[Wed Dec 27 01:30:14.367373 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     return import_module(self.urlconf_name)
+[Wed Dec 27 01:30:14.367416 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib64/python3.4/importlib/__init__.py", line 109, in import_module
+[Wed Dec 27 01:30:14.367425 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 27 01:30:14.367452 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 2254, in _gcd_import
+[Wed Dec 27 01:30:14.367479 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load
+[Wed Dec 27 01:30:14.367505 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked
+[Wed Dec 27 01:30:14.367532 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+[Wed Dec 27 01:30:14.367686 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 1129, in _exec
+[Wed Dec 27 01:30:14.367719 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 1471, in exec_module
+[Wed Dec 27 01:30:14.367747 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+[Wed Dec 27 01:30:14.367795 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/projetoasa/src/pyhosting/urls.py", line 3, in <module>
+[Wed Dec 27 01:30:14.367806 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     from apphosting import views
+[Wed Dec 27 01:30:14.367835 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/projetoasa/src/apphosting/views.py", line 259
+[Wed Dec 27 01:30:14.367856 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     @login_admindominio
+[Wed Dec 27 01:30:14.367883 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     ^
+[Wed Dec 27 01:30:14.367902 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] SyntaxError: invalid syntax
+[Wed Dec 27 01:30:14.367921 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] 
+[Wed Dec 27 01:30:14.367927 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] During handling of the above exception, another exception occurred:
+[Wed Dec 27 01:30:14.367931 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] 
+[Wed Dec 27 01:30:14.367945 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] Traceback (most recent call last):
+[Wed Dec 27 01:30:14.367997 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+[Wed Dec 27 01:30:14.368007 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     response = get_response(request)
+[Wed Dec 27 01:30:14.368048 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/utils/deprecation.py", line 95, in __call__
+[Wed Dec 27 01:30:14.368058 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     response = self.get_response(request)
+[Wed Dec 27 01:30:14.368098 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 37, in inner
+[Wed Dec 27 01:30:14.368108 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     response = response_for_exception(request, exc)
+[Wed Dec 27 01:30:14.368177 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 87, in response_for_exception
+[Wed Dec 27 01:30:14.368192 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+[Wed Dec 27 01:30:14.368254 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+[Wed Dec 27 01:30:14.368269 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     callback, param_dict = resolver.resolve_error_handler(500)
+[Wed Dec 27 01:30:14.368331 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 553, in resolve_error_handler
+[Wed Dec 27 01:30:14.368346 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+[Wed Dec 27 01:30:14.368408 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 36, in __get__
+[Wed Dec 27 01:30:14.368423 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 27 01:30:14.368485 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+[Wed Dec 27 01:30:14.368510 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     return import_module(self.urlconf_name)
+[Wed Dec 27 01:30:14.368576 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib64/python3.4/importlib/__init__.py", line 109, in import_module
+[Wed Dec 27 01:30:14.368590 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 27 01:30:14.368631 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 2254, in _gcd_import
+[Wed Dec 27 01:30:14.368674 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load
+[Wed Dec 27 01:30:14.368715 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked
+[Wed Dec 27 01:30:14.368757 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+[Wed Dec 27 01:30:14.368799 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 1129, in _exec
+[Wed Dec 27 01:30:14.368840 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 1471, in exec_module
+[Wed Dec 27 01:30:14.368881 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+[Wed Dec 27 01:30:14.368948 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/projetoasa/src/pyhosting/urls.py", line 3, in <module>
+[Wed Dec 27 01:30:14.368963 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     from apphosting import views
+[Wed Dec 27 01:30:14.369003 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/projetoasa/src/apphosting/views.py", line 259
+[Wed Dec 27 01:30:14.369032 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     @login_admindominio
+[Wed Dec 27 01:30:14.369070 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     ^
+[Wed Dec 27 01:30:14.369098 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] SyntaxError: invalid syntax
+[Wed Dec 27 01:30:14.369128 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] 
+[Wed Dec 27 01:30:14.369138 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] During handling of the above exception, another exception occurred:
+[Wed Dec 27 01:30:14.369144 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] 
+[Wed Dec 27 01:30:14.369167 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] Traceback (most recent call last):
+[Wed Dec 27 01:30:14.369244 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+[Wed Dec 27 01:30:14.369259 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     response = get_response(request)
+[Wed Dec 27 01:30:14.369322 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/utils/deprecation.py", line 95, in __call__
+[Wed Dec 27 01:30:14.369336 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     response = self.get_response(request)
+[Wed Dec 27 01:30:14.369399 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 37, in inner
+[Wed Dec 27 01:30:14.369413 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     response = response_for_exception(request, exc)
+[Wed Dec 27 01:30:14.369475 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 87, in response_for_exception
+[Wed Dec 27 01:30:14.369490 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+[Wed Dec 27 01:30:14.369569 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+[Wed Dec 27 01:30:14.369584 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     callback, param_dict = resolver.resolve_error_handler(500)
+[Wed Dec 27 01:30:14.369647 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 553, in resolve_error_handler
+[Wed Dec 27 01:30:14.369662 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+[Wed Dec 27 01:30:14.369724 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 36, in __get__
+[Wed Dec 27 01:30:14.369739 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 27 01:30:14.369801 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+[Wed Dec 27 01:30:14.369815 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     return import_module(self.urlconf_name)
+[Wed Dec 27 01:30:14.369877 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib64/python3.4/importlib/__init__.py", line 109, in import_module
+[Wed Dec 27 01:30:14.369891 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 27 01:30:14.369931 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 2254, in _gcd_import
+[Wed Dec 27 01:30:14.369974 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load
+[Wed Dec 27 01:30:14.370016 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked
+[Wed Dec 27 01:30:14.370058 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+[Wed Dec 27 01:30:14.370099 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 1129, in _exec
+[Wed Dec 27 01:30:14.370152 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 1471, in exec_module
+[Wed Dec 27 01:30:14.370197 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+[Wed Dec 27 01:30:14.370265 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/projetoasa/src/pyhosting/urls.py", line 3, in <module>
+[Wed Dec 27 01:30:14.370280 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     from apphosting import views
+[Wed Dec 27 01:30:14.370320 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/projetoasa/src/apphosting/views.py", line 259
+[Wed Dec 27 01:30:14.370350 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     @login_admindominio
+[Wed Dec 27 01:30:14.370389 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     ^
+[Wed Dec 27 01:30:14.370417 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] SyntaxError: invalid syntax
+[Wed Dec 27 01:30:14.370447 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] 
+[Wed Dec 27 01:30:14.370457 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] During handling of the above exception, another exception occurred:
+[Wed Dec 27 01:30:14.370464 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] 
+[Wed Dec 27 01:30:14.370485 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] Traceback (most recent call last):
+[Wed Dec 27 01:30:14.370578 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/core/handlers/wsgi.py", line 146, in __call__
+[Wed Dec 27 01:30:14.370593 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     response = self.get_response(request)
+[Wed Dec 27 01:30:14.370658 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/core/handlers/base.py", line 81, in get_response
+[Wed Dec 27 01:30:14.370673 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     response = self._middleware_chain(request)
+[Wed Dec 27 01:30:14.370735 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 37, in inner
+[Wed Dec 27 01:30:14.370750 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     response = response_for_exception(request, exc)
+[Wed Dec 27 01:30:14.370811 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 87, in response_for_exception
+[Wed Dec 27 01:30:14.370826 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+[Wed Dec 27 01:30:14.370888 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+[Wed Dec 27 01:30:14.370903 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     callback, param_dict = resolver.resolve_error_handler(500)
+[Wed Dec 27 01:30:14.370965 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 553, in resolve_error_handler
+[Wed Dec 27 01:30:14.371010 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+[Wed Dec 27 01:30:14.371087 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/utils/functional.py", line 36, in __get__
+[Wed Dec 27 01:30:14.371102 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Dec 27 01:30:14.371165 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib/python3.4/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+[Wed Dec 27 01:30:14.371179 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     return import_module(self.urlconf_name)
+[Wed Dec 27 01:30:14.371241 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/usr/lib64/python3.4/importlib/__init__.py", line 109, in import_module
+[Wed Dec 27 01:30:14.371256 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Dec 27 01:30:14.371295 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 2254, in _gcd_import
+[Wed Dec 27 01:30:14.371337 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 2237, in _find_and_load
+[Wed Dec 27 01:30:14.371379 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 2226, in _find_and_load_unlocked
+[Wed Dec 27 01:30:14.371420 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+[Wed Dec 27 01:30:14.371461 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 1129, in _exec
+[Wed Dec 27 01:30:14.371503 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 1471, in exec_module
+[Wed Dec 27 01:30:14.371544 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+[Wed Dec 27 01:30:14.371625 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/projetoasa/src/pyhosting/urls.py", line 3, in <module>
+[Wed Dec 27 01:30:14.371640 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     from apphosting import views
+[Wed Dec 27 01:30:14.371681 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]   File "/projetoasa/src/apphosting/views.py", line 259
+[Wed Dec 27 01:30:14.371711 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     @login_admindominio
+[Wed Dec 27 01:30:14.371751 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866]     ^
+[Wed Dec 27 01:30:14.371778 2023] [wsgi:error] [pid 2325] [remote 192.168.102.128:45866] SyntaxError: invalid syntax
+[Wed Dec 27 01:33:30.712004 2023] [wsgi:error] [pid 2417] [remote 192.168.102.128:45902] admin@admin admin
+[Wed Dec 27 01:33:30.911491 2023] [wsgi:error] [pid 2417] [remote 192.168.102.128:45902] True
+[Wed Dec 27 01:33:30.911535 2023] [wsgi:error] [pid 2417] [remote 192.168.102.128:45902] pbkdf2_sha256$100000$pmD3xziFRNVV$JFgLJWbI5XJ6x+/jCVkFAHofZvmVR07Obon/NHtAiDw= admin
+[Wed Dec 27 01:33:30.911547 2023] [wsgi:error] [pid 2417] [remote 192.168.102.128:45902] verificou senha
+[Wed Dec 27 01:33:30.911592 2023] [wsgi:error] [pid 2417] [remote 192.168.102.128:45902] vai redirecionar
+[Wed Dec 27 01:33:30.911608 2023] [wsgi:error] [pid 2417] [remote 192.168.102.128:45902] Redirecionamento para admin
+[Wed Dec 27 01:35:25.135343 2023] [wsgi:error] [pid 2417] [remote 192.168.102.128:45926] foi bd
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 01:35:25.311299 2023] [wsgi:error] [pid 2417] [remote 192.168.102.128:45926] criando
+[Wed Dec 27 01:35:25.311437 2023] [wsgi:error] [pid 2417] [remote 192.168.102.128:45926] 979503
+[Wed Dec 27 01:35:25.527637 2023] [wsgi:error] [pid 2417] [remote 192.168.102.128:45926] deu bom o admin dominio
+[Wed Dec 27 01:35:25.527663 2023] [wsgi:error] [pid 2417] [remote 192.168.102.128:45926] debug2
+[Wed Dec 27 01:35:25.527674 2023] [wsgi:error] [pid 2417] [remote 192.168.102.128:45926] debug1
+[Wed Dec 27 01:44:04.303594 2023] [wsgi:error] [pid 2661] [remote 192.168.102.128:45960] foi bd
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 01:44:04.481896 2023] [wsgi:error] [pid 2661] [remote 192.168.102.128:45960] criando
+[Wed Dec 27 01:44:04.482059 2023] [wsgi:error] [pid 2661] [remote 192.168.102.128:45960] 658554
+[Wed Dec 27 01:44:04.682814 2023] [wsgi:error] [pid 2661] [remote 192.168.102.128:45960] deu bom o admin dominio
+[Wed Dec 27 01:44:04.682844 2023] [wsgi:error] [pid 2661] [remote 192.168.102.128:45960] debug2
+[Wed Dec 27 01:44:04.682855 2023] [wsgi:error] [pid 2661] [remote 192.168.102.128:45960] debug1
+[Wed Dec 27 01:44:04.682865 2023] [wsgi:error] [pid 2661] [remote 192.168.102.128:45960] debug4
+[Wed Dec 27 01:46:55.425769 2023] [wsgi:error] [pid 2767] [remote 192.168.102.128:45978] admin@admin admin
+[Wed Dec 27 01:46:55.644632 2023] [wsgi:error] [pid 2767] [remote 192.168.102.128:45978] True
+[Wed Dec 27 01:46:55.644679 2023] [wsgi:error] [pid 2767] [remote 192.168.102.128:45978] pbkdf2_sha256$100000$pmD3xziFRNVV$JFgLJWbI5XJ6x+/jCVkFAHofZvmVR07Obon/NHtAiDw= admin
+[Wed Dec 27 01:46:55.644693 2023] [wsgi:error] [pid 2767] [remote 192.168.102.128:45978] verificou senha
+[Wed Dec 27 01:46:55.644739 2023] [wsgi:error] [pid 2767] [remote 192.168.102.128:45978] vai redirecionar
+[Wed Dec 27 01:46:55.644756 2023] [wsgi:error] [pid 2767] [remote 192.168.102.128:45978] Redirecionamento para admin
+[Wed Dec 27 01:48:10.966183 2023] [wsgi:error] [pid 2767] [remote 192.168.102.128:45988] foi bd
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 27 01:48:11.136396 2023] [wsgi:error] [pid 2767] [remote 192.168.102.128:45988] criando
+[Wed Dec 27 01:48:11.136536 2023] [wsgi:error] [pid 2767] [remote 192.168.102.128:45988] 598968
+[Wed Dec 27 01:48:11.378695 2023] [wsgi:error] [pid 2767] [remote 192.168.102.128:45988] deu bom o admin dominio
+[Wed Dec 27 01:48:11.378727 2023] [wsgi:error] [pid 2767] [remote 192.168.102.128:45988] debug2
+[Wed Dec 27 01:48:11.378739 2023] [wsgi:error] [pid 2767] [remote 192.168.102.128:45988] debug1

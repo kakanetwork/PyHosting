@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    {% if mensagens %}
+    <script>
+        alert("{{ mensagens }}");
+    </script>
+    {% endif %}
+
+    <h1>BEM VINDO, ADMIN-DOMINIO</h1>
+
+
+    <ul>
+        {% for x in users_dominio %}
+        <li>{{ x.email }}<a href="{% url 'remover_user' x.id %}" onclick="return confirm('Deseja remover o usuario?')" > [Remover]</a></li>
+        {% endfor %}
+    </ul>
+
+    <br>
+    <form action="{% url 'adicionar_user' %}" method="post">
+        {% csrf_token %}
+        <input type="text" name="nome_user" id="nome_user" placeholder="Novo Usuario" required>
+        <button type="submit">Adicionar</button>
+    </form>
+
+
+    
+    <button type="button" onclick="document.getElementById('trocarSenhaForm').style.display='block'">Trocar
+        senha</button>
+    <br><br>
+    <div id="trocarSenhaForm" style="display:none;">
+        <form action="{% url 'trocasenha' %}" method="post">
+            {% csrf_token %}
+            <label for="senhaAtual">Senha Atual:</label>
+            <input type="password" id="senhaAtual" name="senhaAtual" required>
+            <br><br>
+            <label for="novaSenha">Nova Senha:</label>
+            <input type="password" id="novaSenha" name="novaSenha" required>
+            <br><br>
+            <label for="confirmarSenha">Confirme sua Senha:</label>
+            <input type="password" id="confirmarSenha" name="confirmarSenha" required>
+            <br><br>
+
+            <div style="display: flex;">
+                <button type="submit">Confirmar</button>
+                <button type="button"
+                    onclick="document.getElementById('trocarSenhaForm').style.display='none'">Fechar</button>
+            </div>
+
+            <h3> Aviso: ao trocar a senha, voce sera desconectado!</h3>
+            <br><br>
+        </form>
+    </div>
+
+    <a href="{% url 'logout' %}">Sair da conta</a>
+
+
+</body>
+
+</html>

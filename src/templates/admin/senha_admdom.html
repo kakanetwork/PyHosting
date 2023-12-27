@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Troca Senha</title>
+    <style>
+        h3 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    {% if mensagens %}
+        <script>
+            alert("{{ mensagens }}");
+        </script>
+
+    {% endif %}
+
+
+    <form action="{% url 'senha_admdom' id=id %}" method="post">
+        {% csrf_token %}
+
+        <input type="hidden" name="id" value="{{ id }}">
+        <label for="novaSenha">Nova Senha:</label>
+        <input type="password" id="novaSenha" name="novaSenha" required>
+        <br><br>
+        <label for="confirmarSenha">Confirme sua Senha:</label>
+        <input type="password" id="confirmarSenha" name="confirmarSenha" required>
+        <br><br>
+        <button type="submit">Confirmar</button>
+        <h3> Aviso: informe a nova senha ao seu administrador de dominio!</h3>
+        <br><br>
+    </form>
+</body>
+
